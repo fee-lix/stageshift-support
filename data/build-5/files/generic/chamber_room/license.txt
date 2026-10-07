@@ -1,0 +1,12 @@
+Chamber Room
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Dixon Studio Theatre r1 B-format IR
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=452
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/dixon-studio-theatre-university-york/b-format/r1_rir_bformat.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.openairlib.net; Ben Lavin; Darren Robinson; Ya-Hsin Chou
+Source SHA-256: c8291a400c8c46f470dd2960fcaec09d56ac3c5ec3b9fb91059265200fd967e2
+Rendered SHA-256: c9b0797d81fb8e3de14bdd06098b016f9841f7180bc9090a0e192988c74fa401
+Render recipe: xr-ir-render-preset-asset --decode-b-format-stereo --resample-to-48k --target-peak-db -6.0

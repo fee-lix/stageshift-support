@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "mode": "beta",
+  "policySha256": "71b45b2cb3e73092956fae2868628422537ada12a37f53886816834733ae4c7b",
+  "includedRoomIds": [
+    "iem_cube",
+    "iem_production_studio",
+    "detmold_konzerthaus",
+    "detmold_brahmssaal",
+    "detmold_sommertheater",
+    "york_minster",
+    "maeshowe",
+    "elveden_marble_hall",
+    "stockholm_r1",
+    "usina_symphonic",
+    "jack_lyons"
+  ]
+}

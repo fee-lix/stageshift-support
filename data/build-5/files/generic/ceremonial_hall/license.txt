@@ -1,0 +1,12 @@
+Ceremonial Hall
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Elveden Hall Marble Hall stereo IR
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=459
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: Matt Rogalsky
+Source SHA-256: 951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000
+Rendered SHA-256: 484855ed91a90c53d77fc315d69e4dffde22c6799084c95dc1a1ce4880f413a3
+Render recipe: xr-ir-render-preset-asset --resample-to-48k --target-peak-db -6.0

@@ -1,0 +1,12 @@
+Studio Room
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Genesis 6 Studio kick B-format IR
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=483
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/genesis-6-studio-live-room-drum-set/b-format/kick_ir.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.openairlib.net; Daniel Johnston; Panagiotis Kompotis
+Source SHA-256: df72fba0984c52194d96b63ddacd61265c9d303b60c3798b6d4403a4c4221db5
+Rendered SHA-256: 29de37d2be43af83ce53a7f2b2d4266e4ef2999c83e7cbfd9a5521101bfde125
+Render recipe: xr-ir-render-preset-asset --decode-b-format-stereo --resample-to-48k --target-peak-db -6.0

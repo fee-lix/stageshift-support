@@ -1,0 +1,11 @@
+Concert Hall
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Usina del Arte Symphony Hall main S1 P5
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=770
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.untref.edu.ar
+Source SHA-256: 8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d
+Rendered SHA-256: f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a

@@ -1,0 +1,122 @@
+{
+  "images": [
+    {
+      "id": "york_minster",
+      "tool": "built-in image_gen",
+      "prompt": "Generate one portrait 1024x1536 raster background for the native XR Room Reverb app: an artistic cinematic reconstruction of the actual interior of York Minster. The attached public-domain photograph by Mattana is an architectural reference, not a UI target. Preserve its pale stone English Gothic arcades, slender clustered columns, tall traceried stained-glass clerestory and fine rib-vault pattern with small gold bosses. Compose an empty interior with a calm deep central perspective. Warm subtle amber grazing light on stone, desaturated antique bronze palette, restrained realistic detail, much darker than the source, softly shaded upper middle for white app title, lower 40 percent fades naturally into deep near-black shadow for a rotary control. It must remain recognizable architecture, not a generic fantasy cathedral. No people, text, logos, symbols, UI or border. Keep enough geometry visible through the dusk. This is a new background illustration based on the reference.",
+      "output": "images/york_minster.jpg",
+      "sha256": "e572c03384083b3342d67cf50d90b627410be34feac44c09166fb4de6c91ae17",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "york-minster.jpg",
+      "inputReferenceSha256": "5737ec4b5b89f6ce44d1663779573e2d6d0f8120191029c2cc0a6334ae7955ff",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "iem_cube",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create a portrait 1024x1536 premium architectural reconstruction for the XR Room Reverb app background. Input image is the licensed authentic architecture reference. IEM CUBE in Graz: rectangular spatial audio room, pale ceiling, oak parquet floor, side windows and curtains, black loudspeakers along metal rails at several heights. Correct the source panorama projection into a natural rectilinear room; it is NOT a curved building. Omit people, loose chairs and temporary microphones. Cinematic low-key warm amber light, muted gold/brown/charcoal, realistic material detail. Upper two-thirds show recognizable architecture; bottom third fades softly into deep near-black for a rotary control overlay. Comfortable contrast and calm mid-centre for cream title typography. Empty room, no people, no text, no logo, no controls, no watermark. Preserve identified architecture and proportions rather than fantasy decoration. It is an artistic reconstruction.",
+      "output": "images/iem_cube.jpg",
+      "sha256": "738d7f359f0019345a1d887f29af0126f935f55dc3700e24c7617e035ada95ce",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "iem-cube.jpg",
+      "inputReferenceSha256": "d53ac5e9dec603f9aeade6c691e80b8d9e0ba504979fe43912ce9e6b3f27186c",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "iem_production_studio",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create a portrait 1024x1536 premium architectural reconstruction for the XR Room Reverb app background. Input image is the licensed authentic architecture reference. IEM Production Studio Graz. Use ONLY photographic panel Figure 1b on right in reference page, not the drawing or text. Compact control studio, substantial mixing console, bank of black screens, monitors above console, irregular pale vertical diffuser strips. Remove dummy head. Reconstruct colour from black-and-white as restrained warm neutral timber and grey. Cinematic low-key warm amber light, muted gold/brown/charcoal, realistic material detail. Upper two-thirds show recognizable architecture; bottom third fades softly into deep near-black for a rotary control overlay. Comfortable contrast and calm mid-centre for cream title typography. Empty room, no people, no text, no logo, no controls, no watermark. Preserve identified architecture and proportions rather than fantasy decoration. It is an artistic reconstruction.",
+      "output": "images/iem_production_studio.jpg",
+      "sha256": "5f25791e064a6731bdc58771e1c1fb3f42b6c5d64407cd05c0efaf5d53ec6c46",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "production-studio-page3.png",
+      "inputReferenceSha256": "7e70250c8adbad86f781e6afae2b4b768f65771d59509274017b6e3ba46f62fc",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "detmold_konzerthaus",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create a portrait 1024x1536 architectural reconstruction for XR Room Reverb app background. Input image is a licensed reference for the real interior. Detmold Konzerthaus, viewed from wood stage toward rows of blue upholstered seats with pale steps, tall charcoal side walls, striped warm timber ceiling and black suspended stage lights. Keep modern simple rectangular concert hall proportions. Cinematic low-key warm amber lighting, muted gold/brown/charcoal with original materials and colors still recognizable. Realistic architecture. Upper two-thirds recognizable room; bottom third softly fades to near-black for rotary overlay. Calm centre for cream title. No people, no words, no logos, no UI, no watermark. Preserve architecture and proportions. Artistic reconstruction, not a documentary photo.",
+      "output": "images/detmold_konzerthaus.jpg",
+      "sha256": "450234d6c1389b31f3e7046101ed094f7fab9dfa36db50e74daab3f995253ad9",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "detmold-004.jpg",
+      "inputReferenceSha256": "ff9cf06de68d1df7979c7275adb913a9c7fbc078cdde27c55caa2743e332510a",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "detmold_brahmssaal",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create a portrait 1024x1536 architectural reconstruction for XR Room Reverb app background. Input image is a licensed reference for the real interior. Brahmssaal Detmold, small rectangular hall seen from wood platform toward rows of simple dark chairs, tall curtained side windows, pale flat ceiling with circular lighting rails, pale vertical rear acoustic wall strips. Remove microphone and cables. Small intimate scale, no organ or grand architecture. Cinematic low-key warm amber lighting, muted gold/brown/charcoal with original materials and colors still recognizable. Realistic architecture. Upper two-thirds recognizable room; bottom third softly fades to near-black for rotary overlay. Calm centre for cream title. No people, no words, no logos, no UI, no watermark. Preserve architecture and proportions. Artistic reconstruction, not a documentary photo.",
+      "output": "images/detmold_brahmssaal.jpg",
+      "sha256": "0343a2f3ecca4da7fe9b43ed4f62879ef1d80787262c6f651e718ba0170613eb",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "detmold-000.jpg",
+      "inputReferenceSha256": "e2f3a8f6528083334490777aaeb6262cd9aeb32584c7c5b4050c11122e234250",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "detmold_sommertheater",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create a portrait 1024x1536 architectural reconstruction for XR Room Reverb app background. Input image is a licensed reference for the real interior. Detmold Sommertheater seen from stage toward long rectangular theatre with shallow side balconies, pale railings, coral-brown walls, high white ceiling, suspended black lights and rows of dark red seats. Preserve this theatre geometry. Cinematic low-key warm amber lighting, muted gold/brown/charcoal with original materials and colors still recognizable. Realistic architecture. Upper two-thirds recognizable room; bottom third softly fades to near-black for rotary overlay. Calm centre for cream title. No people, no words, no logos, no UI, no watermark. Preserve architecture and proportions. Artistic reconstruction, not a documentary photo.",
+      "output": "images/detmold_sommertheater.jpg",
+      "sha256": "c1da45771630bae25718ed1cae0825e0d4d4e940113124c876e086f9fb5d9074",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "detmold-002.jpg",
+      "inputReferenceSha256": "6f24da20841edf63e97745e2b267acac7caa7478fcda1d7617631199a047532d",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "maeshowe",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create portrait 1024x1536 architectural reconstruction for XR Room Reverb app background. Input image is the licensed architecture reference. Maeshowe Neolithic chamber, Orkney. Preserve rough horizontal stone courses, massive upright corner slabs and small low-lintelled rectangular side-chamber opening. Compact ancient grey/brown stone interior. Limited source view, stay close to visible geometry. No cathedral scale, polished stone or fantasy temple. Low-key cinematic warm amber light and deep charcoal shadows, real materials, restrained visual style. Upper two-thirds show recognizable architecture; lower third fades smoothly to near-black for rotary overlay. Quiet centre for cream title. No people, no UI, no logos, no watermark. Preserve real architecture and proportions; artistically reconstructed, not a documentary photograph.",
+      "output": "images/maeshowe.jpg",
+      "sha256": "a9ec9e08f8bacbf6baca292ce777818cfa13a0abd63b3535641736d9e3427b6c",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "maeshowe.jpg",
+      "inputReferenceSha256": "1186e8783092ecf3151391f323ce2c9bcb1874ab07e72fdf7a7468fe059de4b3",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "stockholm_r1",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create portrait 1024x1536 architectural reconstruction for XR Room Reverb app background. Input image is the licensed architecture reference. Former KTH R1 reactor hall Stockholm. Tall industrial chamber, muted blue curved ceiling with faint authentic coordinate markings, pale concrete walls with grid markings, narrow metal walkways and dark rails on several levels and spiral stair. Removed reactor must remain absent. Perspective mainly upper room matching reference. Coordinate markings only as subtle worn authentic texture, no new legible writing. Low-key cinematic warm amber light and deep charcoal shadows, real materials, restrained visual style. Upper two-thirds show recognizable architecture; lower third fades smoothly to near-black for rotary overlay. Quiet centre for cream title. No people, no UI, no logos, no watermark. Preserve real architecture and proportions; artistically reconstructed, not a documentary photograph.",
+      "output": "images/stockholm_r1.jpg",
+      "sha256": "ad2f42856e6dc85d5e1ad69b7b1520ae6fe12b03fdcdd0130b4e69ecf60207cf",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "r1-input.png",
+      "inputReferenceSha256": "495539108d9a486121f3e93535ac981ec4e5a1b2a3be7bff8a3c6f4f552f5da4",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    },
+    {
+      "id": "usina_symphonic",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: style-transfer. Create portrait 1024x1536 architectural reconstruction for XR Room Reverb app background. Input image is the licensed architecture reference. Usina del Arte symphonic auditorium Buenos Aires. Preserve rectangular symphonic hall, warm wood seats/cladding with dark cushions, exposed upper brickwork, multiple side balcony levels, grey roof trusses and suspended angular wooden acoustic panels above stage. Remove people and temporary microphone stands; piano can remain. Real large auditorium geometry. Low-key cinematic warm amber light and deep charcoal shadows, real materials, restrained visual style. Upper two-thirds show recognizable architecture; lower third fades smoothly to near-black for rotary overlay. Quiet centre for cream title. No people, no UI, no logos, no watermark. Preserve real architecture and proportions; artistically reconstructed, not a documentary photograph.",
+      "output": "images/usina_symphonic.jpg",
+      "sha256": "981f0e9678d045260e127d5cd9145b9ae199125eaa9f83084b5dfc29b761a066",
+      "authoringMethod": "photo_reconstruction",
+      "creditNotice": "NOTICE.md",
+      "sourceEvidence": "../../docs/presets/room_set_image_intake_2026-09-22.md",
+      "inputReferenceFile": "usina.jpg",
+      "inputReferenceSha256": "85c86048825aa3ed6c59eec4d34e3fb4dd26743e840872d60e143eacc7ecf918",
+      "visualReview": "Architecture and app-background composition inspected; artistic reconstruction, not documentary photograph."
+    }
+  ],
+  "schemaVersion": 1
+}

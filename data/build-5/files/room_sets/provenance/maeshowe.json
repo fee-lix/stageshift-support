@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "maeshowe",
+  "sourceSelectionFile": "maes_howe_mh3_000_ortf_48k.wav",
+  "sourceSelectionSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+  "renderedFile": "ir/maeshowe.wav",
+  "renderedSha256": "92d0e681cbb99ef1f598461469d513d09b9eb09f208b56eaa1cb09661c1dca38",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 48000,
+      "frameCount": 48000,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 0,
+        "confidence": "medium",
+        "reason": "conservative_fallback"
+      },
+      "directEvent": {
+        "beginSourceFrame": 295,
+        "endSourceFrameExclusive": 329,
+        "confidence": "medium"
+      },
+      "directReference": {
+        "sourceFrame": 325,
+        "confidence": "medium",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 310,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 329,
+          "confidence": "medium",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 809,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 9449,
+          "confidence": "high",
+          "reason": "detected"
+        }
+      },
+      "analysisStartSourceFrame": 0,
+      "analysisEndSourceFrameExclusive": 48000,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 48000,
+      "sourceFrameCount": 48000,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 12,
+          "bucketCount": 4000
+        },
+        {
+          "nominalFramesPerBucket": 24,
+          "bucketCount": 2000
+        },
+        {
+          "nominalFramesPerBucket": 48,
+          "bucketCount": 1000
+        },
+        {
+          "nominalFramesPerBucket": 96,
+          "bucketCount": 500
+        },
+        {
+          "nominalFramesPerBucket": 192,
+          "bucketCount": 250
+        },
+        {
+          "nominalFramesPerBucket": 384,
+          "bucketCount": 125
+        },
+        {
+          "nominalFramesPerBucket": 768,
+          "bucketCount": 63
+        },
+        {
+          "nominalFramesPerBucket": 1536,
+          "bucketCount": 32
+        },
+        {
+          "nominalFramesPerBucket": 3072,
+          "bucketCount": 16
+        },
+        {
+          "nominalFramesPerBucket": 6144,
+          "bucketCount": 8
+        },
+        {
+          "nominalFramesPerBucket": 12288,
+          "bucketCount": 4
+        },
+        {
+          "nominalFramesPerBucket": 24576,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 49152,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "a29ba62d0c20415b"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 0.8082700264292488,
+      "recommendedGainDb": -1.848870522203977,
+      "limitingConstraint": "energy",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 0,
+      "sourceEndSourceFrameExclusive": 48000,
+      "activeFrameCount": 48000,
+      "boundarySourceFrames": [
+        329,
+        809,
+        9449
+      ],
+      "boundaryAlignedFrames": [
+        329,
+        809,
+        9449
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 48000,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "1f8a6428ad45aedb"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.openair.hosted.york.ac.uk/?page_id=602",
+    "https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -7.827902972680368
+}

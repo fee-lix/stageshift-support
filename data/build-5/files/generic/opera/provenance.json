@@ -1,0 +1,33 @@
+{
+  "id": "opera",
+  "displayName": {
+    "en": "Opera",
+    "de": "Oper"
+  },
+  "audio": {
+    "path": "generic/ir/opera_openair_peak_minus6.wav",
+    "sha256": "9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef",
+    "sourceUri": "https://www.openair.hosted.york.ac.uk/wp-content/uploads/2025/08/theatre41_CenterAVG_32_48.wav",
+    "sourcePageUri": "https://www.openair.hosted.york.ac.uk/?page_id=1543",
+    "sourceOriginalSha256": "cc64e1e2f6667bf615587bb8da784188431e88b282f866c26f3cbdf0d7f5a3e3",
+    "license": "CC-BY-4.0",
+    "attribution": "www.openairlib.net",
+    "processing": {
+      "recipeStatus": "candidate_minimum",
+      "sourceFileHashSha256": "cc64e1e2f6667bf615587bb8da784188431e88b282f866c26f3cbdf0d7f5a3e3",
+      "renderedHashSha256": "9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef",
+      "renderedPeakDb": -6,
+      "targetPeakDb": -6,
+      "dcRemoved": false,
+      "normalized": true,
+      "directOrEarlyRemovalApplied": false,
+      "trimApplied": false,
+      "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+      "exportedBy": "xr-ir-export-preset-candidate"
+    }
+  },
+  "image": {
+    "includedInDownload": false,
+    "reason": "Project-generated image without an identified own open content licence is omitted from this component download."
+  }
+}

@@ -1,0 +1,12 @@
+Grand Concert Hall
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Jack Lyons Concert Hall LP2 B-format IR
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=571
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/jack-lyons-concert-hall-university-york/b-format/rir_jack_lyons_lp2_96k.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.openairlib.net
+Source SHA-256: edc6dd9e978ccdc2ac6719f22498a4e11c1613b76ab631bc01564ade8ab406fc
+Rendered SHA-256: 6e4bc4064103c2cc7c9a133fa02bfff3e2c5473dcba5b264e2963d4141a24533
+Render recipe: xr-ir-render-preset-asset --decode-b-format-stereo --resample-to-48k --target-peak-db -6.0

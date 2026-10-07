@@ -1,0 +1,12 @@
+Opera
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Theatre@41 CenterAVG 32 48 mono IR
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=1543
+Source file: https://www.openair.hosted.york.ac.uk/wp-content/uploads/2025/08/theatre41_CenterAVG_32_48.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.openairlib.net
+Source SHA-256: cc64e1e2f6667bf615587bb8da784188431e88b282f866c26f3cbdf0d7f5a3e3
+Rendered SHA-256: 9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef
+Render recipe: xr-ir-render-preset-asset --target-peak-db -6.0

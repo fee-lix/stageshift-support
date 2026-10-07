@@ -1,0 +1,33 @@
+{
+  "id": "ceremonial_hall",
+  "displayName": {
+    "en": "Ceremonial Hall",
+    "de": "Prunksaal"
+  },
+  "audio": {
+    "path": "generic/ir/ceremonial_hall_openair_peak_minus6.wav",
+    "sha256": "484855ed91a90c53d77fc315d69e4dffde22c6799084c95dc1a1ce4880f413a3",
+    "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav",
+    "sourcePageUri": "https://www.openair.hosted.york.ac.uk/?page_id=459",
+    "sourceOriginalSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+    "license": "CC-BY-4.0",
+    "attribution": "Matt Rogalsky",
+    "processing": {
+      "recipeStatus": "candidate_minimum_offline_resample",
+      "sourceFileHashSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+      "renderedHashSha256": "484855ed91a90c53d77fc315d69e4dffde22c6799084c95dc1a1ce4880f413a3",
+      "renderedPeakDb": -6,
+      "targetPeakDb": -6,
+      "dcRemoved": false,
+      "normalized": true,
+      "directOrEarlyRemovalApplied": false,
+      "trimApplied": false,
+      "renderedBy": "xr-ir-render-preset-asset --resample-to-48k --target-peak-db -6.0",
+      "exportedBy": "xr-ir-export-preset-candidate"
+    }
+  },
+  "image": {
+    "includedInDownload": false,
+    "reason": "Project-generated image without an identified own open content licence is omitted from this component download."
+  }
+}

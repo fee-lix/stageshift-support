@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "presetId": "opera",
+  "status": "production_preset_candidate",
+  "releasePresetGate": "blocked_pending_release_review",
+  "sampleRate": 48000,
+  "channels": 2,
+  "sourceFile": "shared/dsp/testdata/openair_ir_fixtures/theatre41_centeravg_32_48_mono.wav",
+  "renderedFile": "assets/ir/opera_openair_peak_minus6.wav",
+  "sourceFileHashSha256": "cc64e1e2f6667bf615587bb8da784188431e88b282f866c26f3cbdf0d7f5a3e3",
+  "renderedFileHashSha256": "9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef",
+  "blockedReason": null,
+  "processing": {
+    "recipeStatus": "candidate_minimum",
+    "sourceFileHashSha256": "cc64e1e2f6667bf615587bb8da784188431e88b282f866c26f3cbdf0d7f5a3e3",
+    "renderedHashSha256": "9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef",
+    "renderedPeakDb": -6,
+    "targetPeakDb": -6,
+    "dcRemoved": false,
+    "normalized": true,
+    "directOrEarlyRemovalApplied": false,
+    "trimApplied": false,
+    "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+    "exportedBy": "xr-ir-export-preset-candidate"
+  }
+}

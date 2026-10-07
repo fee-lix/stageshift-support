@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "presetId": "chamber_room",
+  "status": "production_preset_candidate",
+  "releasePresetGate": "blocked_pending_release_review",
+  "sampleRate": 48000,
+  "channels": 2,
+  "sourceFile": "shared/dsp/testdata/openair_ir_fixtures/dixon_studio_theatre_r1_bformat_96k.wav",
+  "renderedFile": "assets/ir/chamber_room_openair_peak_minus6.wav",
+  "sourceFileHashSha256": "c8291a400c8c46f470dd2960fcaec09d56ac3c5ec3b9fb91059265200fd967e2",
+  "renderedFileHashSha256": "c9b0797d81fb8e3de14bdd06098b016f9841f7180bc9090a0e192988c74fa401",
+  "blockedReason": null,
+  "processing": {
+    "recipeStatus": "candidate_minimum_offline_b_format_resample",
+    "sourceFileHashSha256": "c8291a400c8c46f470dd2960fcaec09d56ac3c5ec3b9fb91059265200fd967e2",
+    "renderedHashSha256": "c9b0797d81fb8e3de14bdd06098b016f9841f7180bc9090a0e192988c74fa401",
+    "renderedPeakDb": -8.21023,
+    "targetPeakDb": -6,
+    "dcRemoved": false,
+    "normalized": false,
+    "directOrEarlyRemovalApplied": false,
+    "trimApplied": false,
+    "renderedBy": "xr-ir-render-preset-asset --decode-b-format-stereo --resample-to-48k --target-peak-db -6.0",
+    "exportedBy": "xr-ir-export-preset-candidate"
+  }
+}

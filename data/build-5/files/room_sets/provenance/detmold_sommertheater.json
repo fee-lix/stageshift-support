@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "detmold_sommertheater",
+  "sourceSelectionFile": "sommertheater-source.wav",
+  "sourceSelectionSha256": "c4dd2df988e8ed587efd60bcd6b5f8dfa6e6ac58d382de86f4e1bb27ae667346",
+  "renderedFile": "ir/detmold_sommertheater.wav",
+  "renderedSha256": "0654b2452d4cc4ec7ee0eed24361bb89fb1698535a7a9ddc447b084e5ea27f57",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 48000,
+      "frameCount": 144000,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "c4dd2df988e8ed587efd60bcd6b5f8dfa6e6ac58d382de86f4e1bb27ae667346",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 2779,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "directEvent": {
+        "beginSourceFrame": 2803,
+        "endSourceFrameExclusive": 2833,
+        "confidence": "high"
+      },
+      "directReference": {
+        "sourceFrame": 2822,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 2813,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 2833,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 4033,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 4033,
+          "confidence": "high",
+          "reason": "detected"
+        }
+      },
+      "analysisStartSourceFrame": 2779,
+      "analysisEndSourceFrameExclusive": 144000,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 48000,
+      "sourceFrameCount": 144000,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 12,
+          "bucketCount": 12000
+        },
+        {
+          "nominalFramesPerBucket": 24,
+          "bucketCount": 6000
+        },
+        {
+          "nominalFramesPerBucket": 48,
+          "bucketCount": 3000
+        },
+        {
+          "nominalFramesPerBucket": 96,
+          "bucketCount": 1500
+        },
+        {
+          "nominalFramesPerBucket": 192,
+          "bucketCount": 750
+        },
+        {
+          "nominalFramesPerBucket": 384,
+          "bucketCount": 375
+        },
+        {
+          "nominalFramesPerBucket": 768,
+          "bucketCount": 188
+        },
+        {
+          "nominalFramesPerBucket": 1536,
+          "bucketCount": 94
+        },
+        {
+          "nominalFramesPerBucket": 3072,
+          "bucketCount": 47
+        },
+        {
+          "nominalFramesPerBucket": 6144,
+          "bucketCount": 24
+        },
+        {
+          "nominalFramesPerBucket": 12288,
+          "bucketCount": 12
+        },
+        {
+          "nominalFramesPerBucket": 24576,
+          "bucketCount": 6
+        },
+        {
+          "nominalFramesPerBucket": 49152,
+          "bucketCount": 3
+        },
+        {
+          "nominalFramesPerBucket": 98304,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 196608,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "241ad247dd79474e"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 0.8270260940801955,
+      "recommendedGainDb": -1.6496157500311153,
+      "limitingConstraint": "reference_program",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 2779,
+      "sourceEndSourceFrameExclusive": 144000,
+      "activeFrameCount": 141221,
+      "boundarySourceFrames": [
+        2833,
+        4033,
+        4033
+      ],
+      "boundaryAlignedFrames": [
+        54,
+        1254,
+        1254
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 141221,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "a201ff479368a521"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://zenodo.org/records/4116247",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -10.042704089171437
+}

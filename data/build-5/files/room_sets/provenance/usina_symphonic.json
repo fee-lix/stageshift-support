@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "usina_symphonic",
+  "sourceSelectionFile": "usina_del_arte_main_s1_p5.wav",
+  "sourceSelectionSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+  "renderedFile": "ir/usina_symphonic.wav",
+  "renderedSha256": "28172ca67e8772197488761dadd98ae27e80d921962b56ffa44f8f54f410d570",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 48000,
+      "frameCount": 109143,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 759,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "directEvent": {
+        "beginSourceFrame": 783,
+        "endSourceFrameExclusive": 872,
+        "confidence": "high"
+      },
+      "directReference": {
+        "sourceFrame": 813,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 6042,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 872,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 1112,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 4472,
+          "confidence": "high",
+          "reason": "detected"
+        }
+      },
+      "analysisStartSourceFrame": 759,
+      "analysisEndSourceFrameExclusive": 109143,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 48000,
+      "sourceFrameCount": 109143,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 12,
+          "bucketCount": 9096
+        },
+        {
+          "nominalFramesPerBucket": 24,
+          "bucketCount": 4548
+        },
+        {
+          "nominalFramesPerBucket": 48,
+          "bucketCount": 2274
+        },
+        {
+          "nominalFramesPerBucket": 96,
+          "bucketCount": 1137
+        },
+        {
+          "nominalFramesPerBucket": 192,
+          "bucketCount": 569
+        },
+        {
+          "nominalFramesPerBucket": 384,
+          "bucketCount": 285
+        },
+        {
+          "nominalFramesPerBucket": 768,
+          "bucketCount": 143
+        },
+        {
+          "nominalFramesPerBucket": 1536,
+          "bucketCount": 72
+        },
+        {
+          "nominalFramesPerBucket": 3072,
+          "bucketCount": 36
+        },
+        {
+          "nominalFramesPerBucket": 6144,
+          "bucketCount": 18
+        },
+        {
+          "nominalFramesPerBucket": 12288,
+          "bucketCount": 9
+        },
+        {
+          "nominalFramesPerBucket": 24576,
+          "bucketCount": 5
+        },
+        {
+          "nominalFramesPerBucket": 49152,
+          "bucketCount": 3
+        },
+        {
+          "nominalFramesPerBucket": 98304,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 196608,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "f9046470132c2eff"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 0.08739724093524909,
+      "recommendedGainDb": -21.170045549945854,
+      "limitingConstraint": "energy",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 759,
+      "sourceEndSourceFrameExclusive": 109143,
+      "activeFrameCount": 108384,
+      "boundarySourceFrames": [
+        872,
+        1112,
+        4472
+      ],
+      "boundaryAlignedFrames": [
+        113,
+        353,
+        3713
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 108384,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "d76e37c48289ac9f"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.openair.hosted.york.ac.uk/?page_id=770",
+    "https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -21.222685539400075
+}

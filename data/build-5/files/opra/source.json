@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/opra-project/OPRA",
+  "commit": "0b88ecd4e2bef7cf69fd5d50f1d06fb586c10865",
+  "sourcePath": "dist/database_v1.jsonl",
+  "sourceSha256": "5c4cf9e2f71c696bf4fc5b4d1a46c57f31c6d0041552c2146fcd1413596fd210",
+  "catalogueLicense": "CC-BY-SA-4.0",
+  "codeLicense": "MIT",
+  "releaseRecord": {
+    "formatVersion": 1,
+    "productCount": 6224,
+    "catalogueSha256": "0f448fc52741568afe222c676acceae6730dd82a088a13340c38441b7b808174",
+    "indexSha256": "163575e17fce340821688925d087cd54febcac11a07a80d4adf41736f05baf08",
+    "packSha256": "fe1db1416ee87e921079fd9b199a6ce7b01d935d1f1b4cc604a2df1d9a7fe578",
+    "catalogueBuildTool": "headphone-eq-cli-v1"
+  },
+  "runtimeFetch": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cathedral",
+  "displayName": {
+    "en": "Cathedral",
+    "de": "Kathedrale"
+  },
+  "audio": {
+    "path": "generic/ir/cathedral_openair_peak_minus6.wav",
+    "sha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+    "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav",
+    "sourcePageUri": "https://www.openair.hosted.york.ac.uk/?page_id=797",
+    "sourceOriginalSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+    "license": "CC-BY-4.0",
+    "attribution": "www.openairlib.net; Audiolab, University of York; Damian T. Murphy",
+    "processing": {
+      "recipeStatus": "candidate_minimum",
+      "sourceFileHashSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+      "renderedHashSha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+      "renderedPeakDb": -6,
+      "targetPeakDb": -6,
+      "dcRemoved": false,
+      "normalized": true,
+      "directOrEarlyRemovalApplied": false,
+      "trimApplied": false,
+      "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+      "exportedBy": "xr-ir-export-preset-candidate"
+    }
+  },
+  "image": {
+    "includedInDownload": false,
+    "reason": "Project-generated image without an identified own open content licence is omitted from this component download."
+  }
+}

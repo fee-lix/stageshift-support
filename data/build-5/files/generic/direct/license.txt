@@ -1,0 +1,1 @@
+Direct reference. No IR or audio asset is used for this preset.

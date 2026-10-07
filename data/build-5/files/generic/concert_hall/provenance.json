@@ -1,0 +1,33 @@
+{
+  "id": "concert_hall",
+  "displayName": {
+    "en": "Concert Hall",
+    "de": "Konzertsaal"
+  },
+  "audio": {
+    "path": "generic/ir/concert_hall_openair_peak_minus6.wav",
+    "sha256": "f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a",
+    "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav",
+    "sourcePageUri": "https://www.openair.hosted.york.ac.uk/?page_id=770",
+    "sourceOriginalSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+    "license": "CC-BY-4.0",
+    "attribution": "www.untref.edu.ar",
+    "processing": {
+      "recipeStatus": "candidate_minimum",
+      "sourceFileHashSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+      "renderedHashSha256": "f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a",
+      "renderedPeakDb": -6,
+      "targetPeakDb": -6,
+      "dcRemoved": false,
+      "normalized": true,
+      "directOrEarlyRemovalApplied": false,
+      "trimApplied": false,
+      "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+      "exportedBy": "xr-ir-export-preset-candidate"
+    }
+  },
+  "image": {
+    "includedInDownload": false,
+    "reason": "Project-generated image without an identified own open content licence is omitted from this component download."
+  }
+}

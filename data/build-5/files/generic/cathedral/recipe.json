@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "presetId": "cathedral",
+  "status": "production_preset_candidate",
+  "releasePresetGate": "blocked_pending_release_review",
+  "sampleRate": 48000,
+  "channels": 2,
+  "sourceFile": "shared/dsp/testdata/openair_ir_fixtures/york_minster_minster1_000_ortf_48k.wav",
+  "renderedFile": "assets/ir/cathedral_openair_peak_minus6.wav",
+  "sourceFileHashSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+  "renderedFileHashSha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+  "blockedReason": null,
+  "processing": {
+    "recipeStatus": "candidate_minimum",
+    "sourceFileHashSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+    "renderedHashSha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+    "renderedPeakDb": -6,
+    "targetPeakDb": -6,
+    "dcRemoved": false,
+    "normalized": true,
+    "directOrEarlyRemovalApplied": false,
+    "trimApplied": false,
+    "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+    "exportedBy": "xr-ir-export-preset-candidate"
+  }
+}

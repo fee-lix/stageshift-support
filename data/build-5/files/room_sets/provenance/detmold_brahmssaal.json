@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "detmold_brahmssaal",
+  "sourceSelectionFile": "brahmssaal-source.wav",
+  "sourceSelectionSha256": "77cac202206fd15c316f04ab2b8ec68b26145cc1c1b4df9feab1d759b648b910",
+  "renderedFile": "ir/detmold_brahmssaal.wav",
+  "renderedSha256": "5c854a3764cbf925657fccda54463f8c86bfe97d732763457daa517c2e49bd27",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 48000,
+      "frameCount": 262144,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "77cac202206fd15c316f04ab2b8ec68b26145cc1c1b4df9feab1d759b648b910",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 2252,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "directEvent": {
+        "beginSourceFrame": 2276,
+        "endSourceFrameExclusive": 2294,
+        "confidence": "high"
+      },
+      "directReference": {
+        "sourceFrame": 2286,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 2286,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 2294,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 4694,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 107674,
+          "confidence": "low",
+          "reason": "no_stable_decay"
+        }
+      },
+      "analysisStartSourceFrame": 2252,
+      "analysisEndSourceFrameExclusive": 262144,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 48000,
+      "sourceFrameCount": 262144,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 12,
+          "bucketCount": 21846
+        },
+        {
+          "nominalFramesPerBucket": 24,
+          "bucketCount": 10923
+        },
+        {
+          "nominalFramesPerBucket": 48,
+          "bucketCount": 5462
+        },
+        {
+          "nominalFramesPerBucket": 96,
+          "bucketCount": 2731
+        },
+        {
+          "nominalFramesPerBucket": 192,
+          "bucketCount": 1366
+        },
+        {
+          "nominalFramesPerBucket": 384,
+          "bucketCount": 683
+        },
+        {
+          "nominalFramesPerBucket": 768,
+          "bucketCount": 342
+        },
+        {
+          "nominalFramesPerBucket": 1536,
+          "bucketCount": 171
+        },
+        {
+          "nominalFramesPerBucket": 3072,
+          "bucketCount": 86
+        },
+        {
+          "nominalFramesPerBucket": 6144,
+          "bucketCount": 43
+        },
+        {
+          "nominalFramesPerBucket": 12288,
+          "bucketCount": 22
+        },
+        {
+          "nominalFramesPerBucket": 24576,
+          "bucketCount": 11
+        },
+        {
+          "nominalFramesPerBucket": 49152,
+          "bucketCount": 6
+        },
+        {
+          "nominalFramesPerBucket": 98304,
+          "bucketCount": 3
+        },
+        {
+          "nominalFramesPerBucket": 196608,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 393216,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "8011f877d104c555"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 1.1995956444142102,
+      "recommendedGainDb": 1.5806976043988725,
+      "limitingConstraint": "energy",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 2252,
+      "sourceEndSourceFrameExclusive": 262144,
+      "activeFrameCount": 259892,
+      "boundarySourceFrames": [
+        2294,
+        4694,
+        107674
+      ],
+      "boundaryAlignedFrames": [
+        42,
+        2442,
+        105422
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 259892,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "70d7b7e8aa8a64ea"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://zenodo.org/records/4116247",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -9.586952103958804
+}

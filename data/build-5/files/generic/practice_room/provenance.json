@@ -1,0 +1,33 @@
+{
+  "id": "practice_room",
+  "displayName": {
+    "en": "Small Practice Room",
+    "de": "Kleiner Übungsraum"
+  },
+  "audio": {
+    "path": "generic/ir/practice_room_openair_peak_minus6.wav",
+    "sha256": "722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9",
+    "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav",
+    "sourcePageUri": "https://www.openair.hosted.york.ac.uk/?page_id=602",
+    "sourceOriginalSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+    "license": "CC-BY-4.0",
+    "attribution": "www.openairlib.net; Audiolab, University of York; Damian T. Murphy",
+    "processing": {
+      "recipeStatus": "candidate_minimum",
+      "sourceFileHashSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+      "renderedHashSha256": "722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9",
+      "renderedPeakDb": -6,
+      "targetPeakDb": -6,
+      "dcRemoved": false,
+      "normalized": true,
+      "directOrEarlyRemovalApplied": false,
+      "trimApplied": false,
+      "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+      "exportedBy": "xr-ir-export-preset-candidate"
+    }
+  },
+  "image": {
+    "includedInDownload": false,
+    "reason": "Project-generated image without an identified own open content licence is omitted from this component download."
+  }
+}

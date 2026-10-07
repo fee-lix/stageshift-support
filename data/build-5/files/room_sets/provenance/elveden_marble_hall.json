@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "elveden_marble_hall",
+  "sourceSelectionFile": "elveden_marble_hall_stereo_44100.wav",
+  "sourceSelectionSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+  "renderedFile": "ir/elveden_marble_hall.wav",
+  "renderedSha256": "15db9fc512758a758439833469f85b21628e9ce19228fa62050a821a5ad2b23e",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 44100,
+      "frameCount": 354123,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 0,
+        "confidence": "medium",
+        "reason": "conservative_fallback"
+      },
+      "directEvent": {
+        "beginSourceFrame": 7,
+        "endSourceFrameExclusive": 75,
+        "confidence": "medium"
+      },
+      "directReference": {
+        "sourceFrame": 43,
+        "confidence": "medium",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 134,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 75,
+          "confidence": "medium",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 75,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 6690,
+          "confidence": "high",
+          "reason": "detected"
+        }
+      },
+      "analysisStartSourceFrame": 0,
+      "analysisEndSourceFrameExclusive": 354123,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 44100,
+      "sourceFrameCount": 354123,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 11,
+          "bucketCount": 32193
+        },
+        {
+          "nominalFramesPerBucket": 22,
+          "bucketCount": 16097
+        },
+        {
+          "nominalFramesPerBucket": 44,
+          "bucketCount": 8049
+        },
+        {
+          "nominalFramesPerBucket": 88,
+          "bucketCount": 4025
+        },
+        {
+          "nominalFramesPerBucket": 176,
+          "bucketCount": 2013
+        },
+        {
+          "nominalFramesPerBucket": 352,
+          "bucketCount": 1007
+        },
+        {
+          "nominalFramesPerBucket": 704,
+          "bucketCount": 504
+        },
+        {
+          "nominalFramesPerBucket": 1408,
+          "bucketCount": 252
+        },
+        {
+          "nominalFramesPerBucket": 2816,
+          "bucketCount": 126
+        },
+        {
+          "nominalFramesPerBucket": 5632,
+          "bucketCount": 63
+        },
+        {
+          "nominalFramesPerBucket": 11264,
+          "bucketCount": 32
+        },
+        {
+          "nominalFramesPerBucket": 22528,
+          "bucketCount": 16
+        },
+        {
+          "nominalFramesPerBucket": 45056,
+          "bucketCount": 8
+        },
+        {
+          "nominalFramesPerBucket": 90112,
+          "bucketCount": 4
+        },
+        {
+          "nominalFramesPerBucket": 180224,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 360448,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "b283dcf7ad3c042b"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 0.038761969877223315,
+      "recommendedGainDb": -28.231883205661056,
+      "limitingConstraint": "energy",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 0,
+      "sourceEndSourceFrameExclusive": 354123,
+      "activeFrameCount": 385440,
+      "boundarySourceFrames": [
+        75,
+        75,
+        6690
+      ],
+      "boundaryAlignedFrames": [
+        82,
+        82,
+        7282
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 385440,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "56559e1e16ead6fc"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.openair.hosted.york.ac.uk/?page_id=459",
+    "https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -32.54877688660708
+}

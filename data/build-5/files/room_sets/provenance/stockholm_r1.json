@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "stockholm_r1",
+  "sourceSelectionFile": "r1_ortf-48k.wav",
+  "sourceSelectionSha256": "77a39d4ee15ee336624d078962045775005e9a488c8453e9f5fa4656a3467e2d",
+  "renderedFile": "ir/stockholm_r1.wav",
+  "renderedSha256": "4591873022cac623a0e0f790c02e120ac6c5bbb05f4f8c3c87c7acf5b93926ce",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 48000,
+      "frameCount": 973440,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "77a39d4ee15ee336624d078962045775005e9a488c8453e9f5fa4656a3467e2d",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 1928,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "directEvent": {
+        "beginSourceFrame": 1952,
+        "endSourceFrameExclusive": 2193,
+        "confidence": "high"
+      },
+      "directReference": {
+        "sourceFrame": 2177,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 2175,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 2193,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 4593,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 10353,
+          "confidence": "high",
+          "reason": "detected"
+        }
+      },
+      "analysisStartSourceFrame": 1928,
+      "analysisEndSourceFrameExclusive": 481928,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 48000,
+      "sourceFrameCount": 973440,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 12,
+          "bucketCount": 81120
+        },
+        {
+          "nominalFramesPerBucket": 24,
+          "bucketCount": 40560
+        },
+        {
+          "nominalFramesPerBucket": 48,
+          "bucketCount": 20280
+        },
+        {
+          "nominalFramesPerBucket": 96,
+          "bucketCount": 10140
+        },
+        {
+          "nominalFramesPerBucket": 192,
+          "bucketCount": 5070
+        },
+        {
+          "nominalFramesPerBucket": 384,
+          "bucketCount": 2535
+        },
+        {
+          "nominalFramesPerBucket": 768,
+          "bucketCount": 1268
+        },
+        {
+          "nominalFramesPerBucket": 1536,
+          "bucketCount": 634
+        },
+        {
+          "nominalFramesPerBucket": 3072,
+          "bucketCount": 317
+        },
+        {
+          "nominalFramesPerBucket": 6144,
+          "bucketCount": 159
+        },
+        {
+          "nominalFramesPerBucket": 12288,
+          "bucketCount": 80
+        },
+        {
+          "nominalFramesPerBucket": 24576,
+          "bucketCount": 40
+        },
+        {
+          "nominalFramesPerBucket": 49152,
+          "bucketCount": 20
+        },
+        {
+          "nominalFramesPerBucket": 98304,
+          "bucketCount": 10
+        },
+        {
+          "nominalFramesPerBucket": 196608,
+          "bucketCount": 5
+        },
+        {
+          "nominalFramesPerBucket": 393216,
+          "bucketCount": 3
+        },
+        {
+          "nominalFramesPerBucket": 786432,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 1572864,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "5554fbee2fcf2d82"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 0.285431218633233,
+      "recommendedGainDb": -10.889970565655835,
+      "limitingConstraint": "energy",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 1928,
+      "sourceEndSourceFrameExclusive": 481928,
+      "activeFrameCount": 480000,
+      "boundarySourceFrames": [
+        2193,
+        4593,
+        10353
+      ],
+      "boundaryAlignedFrames": [
+        265,
+        2665,
+        8425
+      ],
+      "tailCutApplied": true,
+      "tailFadeStartAlignedFrame": 475200,
+      "tailFadeFrameCount": 4800,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "74ceef59cf98c2f3"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.openair.hosted.york.ac.uk/?page_id=626",
+    "https://webfiles.york.ac.uk/OPENAIR/IRs/r1-nuclear-reactor-hall/stereo/r1_ortf-48k.wav",
+    "https://sites.google.com/york.ac.uk/music-technology-masterclass/home/1-acoustics"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -15.393190843808764
+}

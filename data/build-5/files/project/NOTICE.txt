@@ -1,0 +1,17 @@
+StageShift
+
+Project source is licensed under Apache-2.0; see LICENSE.
+
+Third-party software retains its own licenses. THIRD_PARTY_NOTICES.md identifies
+the dependencies, source versions, and separately supplied license texts.
+App packages provide these materials in ThirdPartyLegal and the Licenses page.
+
+OpenAIR-derived room assets are separately licensed under CC BY 4.0. Packages
+that include them provide source, creator, license, modification, and hash
+information in PresetLegal. Closed-beta inclusion does not complete their
+production listening, runtime, and device review.
+
+The adapted OPRA headphone catalogue is a separate CC BY-SA 4.0 data work.
+Its exact normalized recipient copy, license, creator attribution, and change
+notice are bundled and exportable. Project licensing does not limit the rights
+granted by those third-party licenses. No source creator endorses this app.

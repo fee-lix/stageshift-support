@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "presetId": "concert_hall",
+  "status": "production_preset_candidate",
+  "releasePresetGate": "blocked_pending_release_review",
+  "sampleRate": 48000,
+  "channels": 2,
+  "sourceFile": "shared/dsp/testdata/openair_ir_fixtures/usina_del_arte_main_s1_p5.wav",
+  "renderedFile": "assets/ir/concert_hall_openair_peak_minus6.wav",
+  "sourceFileHashSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+  "renderedFileHashSha256": "f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a",
+  "blockedReason": null,
+  "processing": {
+    "recipeStatus": "candidate_minimum",
+    "sourceFileHashSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+    "renderedHashSha256": "f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a",
+    "renderedPeakDb": -6,
+    "targetPeakDb": -6,
+    "dcRemoved": false,
+    "normalized": true,
+    "directOrEarlyRemovalApplied": false,
+    "trimApplied": false,
+    "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+    "exportedBy": "xr-ir-export-preset-candidate"
+  }
+}

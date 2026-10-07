@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "presetId": "practice_room",
+  "status": "production_preset_candidate",
+  "releasePresetGate": "blocked_pending_release_review",
+  "sampleRate": 48000,
+  "channels": 2,
+  "sourceFile": "shared/dsp/testdata/openair_ir_fixtures/maes_howe_mh3_000_ortf_48k.wav",
+  "renderedFile": "assets/ir/practice_room_openair_peak_minus6.wav",
+  "sourceFileHashSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+  "renderedFileHashSha256": "722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9",
+  "blockedReason": null,
+  "processing": {
+    "recipeStatus": "candidate_minimum",
+    "sourceFileHashSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+    "renderedHashSha256": "722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9",
+    "renderedPeakDb": -6,
+    "targetPeakDb": -6,
+    "dcRemoved": false,
+    "normalized": true,
+    "directOrEarlyRemovalApplied": false,
+    "trimApplied": false,
+    "renderedBy": "xr-ir-render-preset-asset --target-peak-db -6.0",
+    "exportedBy": "xr-ir-export-preset-candidate"
+  }
+}

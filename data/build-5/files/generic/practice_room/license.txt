@@ -1,0 +1,11 @@
+Small Practice Room
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR Maes Howe mh3 000 ORTF 48k
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=602
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.openairlib.net; Audiolab, University of York; Damian T. Murphy
+Source SHA-256: fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3
+Rendered SHA-256: 722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9

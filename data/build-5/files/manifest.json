@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": 1,
+  "product": "StageShift",
+  "version": "0.1.0",
+  "build": "5",
+  "origin": "Open-content download subset of local signed Build5; not Apple-processed",
+  "appIpaSha256": "46cddebe13478183e0bf705716d3ec0c4471ea60c2a282fbd9e3f381a66b0a40",
+  "count": {
+    "genericAudio": 9,
+    "namedAudio": 11,
+    "namedImages": 9,
+    "genericImageInputs": 0,
+    "directImageInputs": 0,
+    "opraDataFiles": 3
+  },
+  "opra": {
+    "repository": "https://github.com/opra-project/OPRA",
+    "commit": "0b88ecd4e2bef7cf69fd5d50f1d06fb586c10865",
+    "sourceSha256": "5c4cf9e2f71c696bf4fc5b4d1a46c57f31c6d0041552c2146fcd1413596fd210",
+    "catalogueSha256": "0f448fc52741568afe222c676acceae6730dd82a088a13340c38441b7b808174"
+  },
+  "genericComponents": [
+    {
+      "id": "practice_room",
+      "displayName": {
+        "en": "Small Practice Room",
+        "de": "Kleiner Übungsraum"
+      },
+      "audioPath": "generic/ir/practice_room_openair_peak_minus6.wav",
+      "audioSha256": "722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav",
+      "sourceOriginalSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+      "attribution": "www.openairlib.net; Audiolab, University of York; Damian T. Murphy",
+      "creditPath": "generic/practice_room/license.txt",
+      "processingPath": "generic/practice_room/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "studio_room",
+      "displayName": {
+        "en": "Studio Room",
+        "de": "Studioraum"
+      },
+      "audioPath": "generic/ir/studio_room_openair_peak_minus6.wav",
+      "audioSha256": "29de37d2be43af83ce53a7f2b2d4266e4ef2999c83e7cbfd9a5521101bfde125",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/genesis-6-studio-live-room-drum-set/b-format/kick_ir.wav",
+      "sourceOriginalSha256": "df72fba0984c52194d96b63ddacd61265c9d303b60c3798b6d4403a4c4221db5",
+      "attribution": "www.openairlib.net; Daniel Johnston; Panagiotis Kompotis",
+      "creditPath": "generic/studio_room/license.txt",
+      "processingPath": "generic/studio_room/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "chamber_room",
+      "displayName": {
+        "en": "Chamber Room",
+        "de": "Kammerraum"
+      },
+      "audioPath": "generic/ir/chamber_room_openair_peak_minus6.wav",
+      "audioSha256": "c9b0797d81fb8e3de14bdd06098b016f9841f7180bc9090a0e192988c74fa401",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/dixon-studio-theatre-university-york/b-format/r1_rir_bformat.wav",
+      "sourceOriginalSha256": "c8291a400c8c46f470dd2960fcaec09d56ac3c5ec3b9fb91059265200fd967e2",
+      "attribution": "www.openairlib.net; Ben Lavin; Darren Robinson; Ya-Hsin Chou",
+      "creditPath": "generic/chamber_room/license.txt",
+      "processingPath": "generic/chamber_room/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "concert_hall",
+      "displayName": {
+        "en": "Concert Hall",
+        "de": "Konzertsaal"
+      },
+      "audioPath": "generic/ir/concert_hall_openair_peak_minus6.wav",
+      "audioSha256": "f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav",
+      "sourceOriginalSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+      "attribution": "www.untref.edu.ar",
+      "creditPath": "generic/concert_hall/license.txt",
+      "processingPath": "generic/concert_hall/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "church",
+      "displayName": {
+        "en": "Church",
+        "de": "Kirche"
+      },
+      "audioPath": "generic/ir/church_openair_peak_minus6.wav",
+      "audioSha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav",
+      "sourceOriginalSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+      "attribution": "www.openairlib.net; Audiolab, University of York; Damian T. Murphy",
+      "creditPath": "generic/church/license.txt",
+      "processingPath": "generic/church/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "opera",
+      "displayName": {
+        "en": "Opera",
+        "de": "Oper"
+      },
+      "audioPath": "generic/ir/opera_openair_peak_minus6.wav",
+      "audioSha256": "9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://www.openair.hosted.york.ac.uk/wp-content/uploads/2025/08/theatre41_CenterAVG_32_48.wav",
+      "sourceOriginalSha256": "cc64e1e2f6667bf615587bb8da784188431e88b282f866c26f3cbdf0d7f5a3e3",
+      "attribution": "www.openairlib.net",
+      "creditPath": "generic/opera/license.txt",
+      "processingPath": "generic/opera/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "grand_concert_hall",
+      "displayName": {
+        "en": "Grand Concert Hall",
+        "de": "Großer Saal"
+      },
+      "audioPath": "generic/ir/grand_concert_hall_openair_peak_minus6.wav",
+      "audioSha256": "6e4bc4064103c2cc7c9a133fa02bfff3e2c5473dcba5b264e2963d4141a24533",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/jack-lyons-concert-hall-university-york/b-format/rir_jack_lyons_lp2_96k.wav",
+      "sourceOriginalSha256": "edc6dd9e978ccdc2ac6719f22498a4e11c1613b76ab631bc01564ade8ab406fc",
+      "attribution": "www.openairlib.net",
+      "creditPath": "generic/grand_concert_hall/license.txt",
+      "processingPath": "generic/grand_concert_hall/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "ceremonial_hall",
+      "displayName": {
+        "en": "Ceremonial Hall",
+        "de": "Prunksaal"
+      },
+      "audioPath": "generic/ir/ceremonial_hall_openair_peak_minus6.wav",
+      "audioSha256": "484855ed91a90c53d77fc315d69e4dffde22c6799084c95dc1a1ce4880f413a3",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav",
+      "sourceOriginalSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+      "attribution": "Matt Rogalsky",
+      "creditPath": "generic/ceremonial_hall/license.txt",
+      "processingPath": "generic/ceremonial_hall/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "cathedral",
+      "displayName": {
+        "en": "Cathedral",
+        "de": "Kathedrale"
+      },
+      "audioPath": "generic/ir/cathedral_openair_peak_minus6.wav",
+      "audioSha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav",
+      "sourceOriginalSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+      "attribution": "www.openairlib.net; Audiolab, University of York; Damian T. Murphy",
+      "creditPath": "generic/cathedral/license.txt",
+      "processingPath": "generic/cathedral/recipe.json",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: project-generated image without an identified own open content licence.",
+      "imageIncludedInDownload": false
+    }
+  ],
+  "namedComponents": [
+    {
+      "id": "iem_cube",
+      "nameDe": "IEM CUBE",
+      "nameEn": "IEM CUBE",
+      "audioPath": "room_sets/ir/iem_cube.wav",
+      "audioSha256": "15222296effd945ffdf20f38241d3ce2b20f93094d752488962d600843b9bb72",
+      "audioLicense": "Public Domain Mark1.0; not CC0",
+      "sourceUri": "https://phaidra.kug.ac.at/api/object/o:104435/download",
+      "sourceReferences": [
+        "https://phaidra.kug.ac.at/detail/o:104435",
+        "https://creativecommons.org/publicdomain/mark/1.0/",
+        "https://phaidra.kug.ac.at/api/object/o:104435/download"
+      ],
+      "sourceOriginalSha256": "870e7f71ad6055fc98f03ef36da4b1d208472e64e61b6d040c6a303db64c1efb",
+      "sourceArchiveMember": "cube_soundfield.sofa",
+      "sourceSelectionFile": "cube-m16-e0-w.wav",
+      "sourceSelectionSha256": "442f91f29e4a5dbc7847473ef23dca4aac5fe952eeaac143f12f8dc549ab7501",
+      "imagePath": "room_sets/images/iem_cube.jpg",
+      "imageSha256": "738d7f359f0019345a1d887f29af0126f935f55dc3700e24c7617e035ada95ce",
+      "imageLicenseStatus": "CC-BY-4.0",
+      "imageSourceUris": [
+        "https://arxiv.org/html/2512.07570v1",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://arxiv.org/html/2512.07570v1/pics/CUBE_Center_brightened.jpg"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/iem_cube.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "iem_production_studio",
+      "nameDe": "IEM Production Studio",
+      "nameEn": "IEM Production Studio",
+      "audioPath": "room_sets/ir/iem_production_studio.wav",
+      "audioSha256": "ffbb7c28d909896cde7289364cdf7fe4d52ebb45312f82b91c9ea0fe21676ac9",
+      "audioLicense": "Public Domain Mark1.0; not CC0",
+      "sourceUri": "https://phaidra.kug.ac.at/api/object/o:76742/comp/COMP000001",
+      "sourceReferences": [
+        "https://phaidra.kug.ac.at/detail/o:76742",
+        "https://creativecommons.org/publicdomain/mark/1.0/",
+        "https://phaidra.kug.ac.at/api/object/o:76742/comp/COMP000001",
+        "https://phaidra.kug.ac.at/api/object/o:76742/comp/COMP000002"
+      ],
+      "sourceOriginalSha256": "036587cfcfe24b7d1bfb49258e5a18fc46a26313996d354ff9a5e792e7aa161f",
+      "sourceArchiveMember": "KU100Equalized_allRotations/Produktionsstudio_KU100_000Yaw_03_Center.wav",
+      "sourceSelectionFile": "production-studio-front.wav",
+      "sourceSelectionSha256": "036587cfcfe24b7d1bfb49258e5a18fc46a26313996d354ff9a5e792e7aa161f",
+      "imagePath": "room_sets/images/iem_production_studio.jpg",
+      "imageSha256": "5f25791e064a6731bdc58771e1c1fb3f42b6c5d64407cd05c0efaf5d53ec6c46",
+      "imageLicenseStatus": "CC-BY-4.0",
+      "imageSourceUris": [
+        "https://doi.org/10.3390/app10051631",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://mdpi-res.com/d_attachment/applsci/applsci-10-01631/article_deploy/applsci-10-01631.pdf"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/iem_production_studio.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "detmold_konzerthaus",
+      "nameDe": "Konzerthaus Detmold",
+      "nameEn": "Konzerthaus Detmold",
+      "audioPath": "room_sets/ir/detmold_konzerthaus.wav",
+      "audioSha256": "79ece6dd2dc55356a032b025ea719c37089314b47a6172b10f5698652ac509a9",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content",
+      "sourceReferences": [
+        "https://zenodo.org/records/4116247",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content"
+      ],
+      "sourceOriginalSha256": "0aecb38ecb83e51f6892046816acf93f7285d50bd8efcb055fafecafb54e482d",
+      "sourceArchiveMember": "SetC_DenseKH_LSOrchestra/Data/DummyHead/S3R163.wav",
+      "sourceSelectionFile": "konzerthaus-source.wav",
+      "sourceSelectionSha256": "0aecb38ecb83e51f6892046816acf93f7285d50bd8efcb055fafecafb54e482d",
+      "imagePath": "room_sets/images/detmold_konzerthaus.jpg",
+      "imageSha256": "450234d6c1389b31f3e7046101ed094f7fab9dfa36db50e74daab3f995253ad9",
+      "imageLicenseStatus": "CC-BY-4.0",
+      "imageSourceUris": [
+        "https://zenodo.org/records/4116247/files/MainDocumentation_v02.pdf?download=1",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/detmold_konzerthaus.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "detmold_brahmssaal",
+      "nameDe": "Brahmssaal Detmold",
+      "nameEn": "Brahmssaal Detmold",
+      "audioPath": "room_sets/ir/detmold_brahmssaal.wav",
+      "audioSha256": "5c854a3764cbf925657fccda54463f8c86bfe97d732763457daa517c2e49bd27",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content",
+      "sourceReferences": [
+        "https://zenodo.org/records/4116247",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content"
+      ],
+      "sourceOriginalSha256": "77cac202206fd15c316f04ab2b8ec68b26145cc1c1b4df9feab1d759b648b910",
+      "sourceArchiveMember": "SetA_SingleSources/Data/Brahmssaal/DummyHead/C1S1R4.wav",
+      "sourceSelectionFile": "brahmssaal-source.wav",
+      "sourceSelectionSha256": "77cac202206fd15c316f04ab2b8ec68b26145cc1c1b4df9feab1d759b648b910",
+      "imagePath": "room_sets/images/detmold_brahmssaal.jpg",
+      "imageSha256": "0343a2f3ecca4da7fe9b43ed4f62879ef1d80787262c6f651e718ba0170613eb",
+      "imageLicenseStatus": "CC-BY-4.0",
+      "imageSourceUris": [
+        "https://zenodo.org/records/4116247/files/MainDocumentation_v02.pdf?download=1",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/detmold_brahmssaal.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "detmold_sommertheater",
+      "nameDe": "Detmolder Sommertheater",
+      "nameEn": "Detmolder Sommertheater",
+      "audioPath": "room_sets/ir/detmold_sommertheater.wav",
+      "audioSha256": "0654b2452d4cc4ec7ee0eed24361bb89fb1698535a7a9ddc447b084e5ea27f57",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content",
+      "sourceReferences": [
+        "https://zenodo.org/records/4116247",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://zenodo.org/api/records/4116247/files/DetmoldSRIR_v01.zip/content"
+      ],
+      "sourceOriginalSha256": "c4dd2df988e8ed587efd60bcd6b5f8dfa6e6ac58d382de86f4e1bb27ae667346",
+      "sourceArchiveMember": "SetA_SingleSources/Data/SommerTheater/DummyHead/C1S1R3.wav",
+      "sourceSelectionFile": "sommertheater-source.wav",
+      "sourceSelectionSha256": "c4dd2df988e8ed587efd60bcd6b5f8dfa6e6ac58d382de86f4e1bb27ae667346",
+      "imagePath": "room_sets/images/detmold_sommertheater.jpg",
+      "imageSha256": "c1da45771630bae25718ed1cae0825e0d4d4e940113124c876e086f9fb5d9074",
+      "imageLicenseStatus": "CC-BY-4.0",
+      "imageSourceUris": [
+        "https://zenodo.org/records/4116247/files/MainDocumentation_v02.pdf?download=1",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/detmold_sommertheater.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "york_minster",
+      "nameDe": "York Minster",
+      "nameEn": "York Minster",
+      "audioPath": "room_sets/ir/york_minster.wav",
+      "audioSha256": "13fff414ff5649f0676e889cafd718c76e3ef76bcdf32fbad166c0d0277eefa8",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav",
+      "sourceReferences": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.openair.hosted.york.ac.uk/?page_id=797",
+        "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav"
+      ],
+      "sourceOriginalSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+      "sourceArchiveMember": null,
+      "sourceSelectionFile": "york_minster_minster1_000_ortf_48k.wav",
+      "sourceSelectionSha256": "2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63",
+      "imagePath": "room_sets/images/york_minster.jpg",
+      "imageSha256": "e572c03384083b3342d67cf50d90b627410be34feac44c09166fb4de6c91ae17",
+      "imageLicenseStatus": "PD-self with fallback grant; not CC0",
+      "imageSourceUris": [
+        "https://commons.wikimedia.org/wiki/File:York_York_minster_interior_014.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/38/York_York_minster_interior_014.JPG"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/york_minster.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "maeshowe",
+      "nameDe": "Maeshowe",
+      "nameEn": "Maeshowe",
+      "audioPath": "room_sets/ir/maeshowe.wav",
+      "audioSha256": "92d0e681cbb99ef1f598461469d513d09b9eb09f208b56eaa1cb09661c1dca38",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav",
+      "sourceReferences": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.openair.hosted.york.ac.uk/?page_id=602",
+        "https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav"
+      ],
+      "sourceOriginalSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+      "sourceArchiveMember": null,
+      "sourceSelectionFile": "maes_howe_mh3_000_ortf_48k.wav",
+      "sourceSelectionSha256": "fd6deac6908be57098f8252c9b40ee2169fecb5da110e53159d94577edb371b3",
+      "imagePath": "room_sets/images/maeshowe.jpg",
+      "imageSha256": "a9ec9e08f8bacbf6baca292ce777818cfa13a0abd63b3535641736d9e3427b6c",
+      "imageLicenseStatus": "CC-BY-SA-2.0; adaptation supplied under the same version",
+      "imageSourceUris": [
+        "https://www.geograph.org.uk/photo/4307137",
+        "https://commons.wikimedia.org/wiki/File:Maes_Howe,_interior_-_geograph.org.uk_-_4307137.jpg",
+        "https://creativecommons.org/licenses/by-sa/2.0/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/maeshowe.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "elveden_marble_hall",
+      "nameDe": "Elveden Hall – Marble Hall",
+      "nameEn": "Elveden Hall – Marble Hall",
+      "audioPath": "room_sets/ir/elveden_marble_hall.wav",
+      "audioSha256": "15db9fc512758a758439833469f85b21628e9ce19228fa62050a821a5ad2b23e",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav",
+      "sourceReferences": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.openair.hosted.york.ac.uk/?page_id=459",
+        "https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav"
+      ],
+      "sourceOriginalSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+      "sourceArchiveMember": null,
+      "sourceSelectionFile": "elveden_marble_hall_stereo_44100.wav",
+      "sourceSelectionSha256": "951b9c4dcac29421787211cb99ba75c8e792d7727f63dc4579755f70f5bad000",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: facts-only project-generated image without an identified own open content licence.",
+      "imageSourceUris": [
+        "https://historicengland.org.uk/listing/the-list/list-entry/1037611/",
+        "https://www.heritagexplore.com/houses/elveden-hall/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/elveden_marble_hall.json",
+      "imageIncludedInDownload": false
+    },
+    {
+      "id": "stockholm_r1",
+      "nameDe": "R1 Reactor Hall",
+      "nameEn": "R1 Reactor Hall",
+      "audioPath": "room_sets/ir/stockholm_r1.wav",
+      "audioSha256": "4591873022cac623a0e0f790c02e120ac6c5bbb05f4f8c3c87c7acf5b93926ce",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/r1-nuclear-reactor-hall/stereo/r1_ortf-48k.wav",
+      "sourceReferences": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.openair.hosted.york.ac.uk/?page_id=626",
+        "https://webfiles.york.ac.uk/OPENAIR/IRs/r1-nuclear-reactor-hall/stereo/r1_ortf-48k.wav",
+        "https://sites.google.com/york.ac.uk/music-technology-masterclass/home/1-acoustics"
+      ],
+      "sourceOriginalSha256": "77a39d4ee15ee336624d078962045775005e9a488c8453e9f5fa4656a3467e2d",
+      "sourceArchiveMember": null,
+      "sourceSelectionFile": "r1_ortf-48k.wav",
+      "sourceSelectionSha256": "77a39d4ee15ee336624d078962045775005e9a488c8453e9f5fa4656a3467e2d",
+      "imagePath": "room_sets/images/stockholm_r1.jpg",
+      "imageSha256": "ad2f42856e6dc85d5e1ad69b7b1520ae6fe12b03fdcdd0130b4e69ecf60207cf",
+      "imageLicenseStatus": "CC-BY-SA-4.0; adaptation supplied under the same version",
+      "imageSourceUris": [
+        "https://commons.wikimedia.org/wiki/File:2021_KTH_R1,_image_1.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/stockholm_r1.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "usina_symphonic",
+      "nameDe": "Usina del Arte",
+      "nameEn": "Usina del Arte",
+      "audioPath": "room_sets/ir/usina_symphonic.wav",
+      "audioSha256": "28172ca67e8772197488761dadd98ae27e80d921962b56ffa44f8f54f410d570",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav",
+      "sourceReferences": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.openair.hosted.york.ac.uk/?page_id=770",
+        "https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav"
+      ],
+      "sourceOriginalSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+      "sourceArchiveMember": null,
+      "sourceSelectionFile": "usina_del_arte_main_s1_p5.wav",
+      "sourceSelectionSha256": "8368cee92e3c27fb0cf246ad0bad0a4a79520d10b8084e20b47c0de4e1872a4d",
+      "imagePath": "room_sets/images/usina_symphonic.jpg",
+      "imageSha256": "981f0e9678d045260e127d5cd9145b9ae199125eaa9f83084b5dfc29b761a066",
+      "imageLicenseStatus": "CC-BY-2.0",
+      "imageSourceUris": [
+        "https://commons.wikimedia.org/wiki/File:Auditorio_Usina_de_las_Artes.jpg",
+        "https://creativecommons.org/licenses/by/2.0/"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/usina_symphonic.json",
+      "imageIncludedInDownload": true
+    },
+    {
+      "id": "jack_lyons",
+      "nameDe": "Sir Jack Lyons Concert Hall",
+      "nameEn": "Sir Jack Lyons Concert Hall",
+      "audioPath": "room_sets/ir/jack_lyons.wav",
+      "audioSha256": "91af19c2f2292c234ad69c1d2c1d4df30dd8515c167fb26bc35026886a19c8fc",
+      "audioLicense": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/jack-lyons-concert-hall-university-york/b-format/rir_jack_lyons_lp2_96k.wav",
+      "sourceReferences": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.openair.hosted.york.ac.uk/?page_id=571",
+        "https://webfiles.york.ac.uk/OPENAIR/IRs/jack-lyons-concert-hall-university-york/b-format/rir_jack_lyons_lp2_96k.wav"
+      ],
+      "sourceOriginalSha256": "edc6dd9e978ccdc2ac6719f22498a4e11c1613b76ab631bc01564ade8ab406fc",
+      "sourceArchiveMember": null,
+      "sourceSelectionFile": "jack_lyons_lp2_bformat_96k.wav",
+      "sourceSelectionSha256": "edc6dd9e978ccdc2ac6719f22498a4e11c1613b76ab631bc01564ade8ab406fc",
+      "imagePath": null,
+      "imageSha256": null,
+      "imageLicenseStatus": "Not included: facts-only project-generated image without an identified own open content licence.",
+      "imageSourceUris": [
+        "https://www.york.ac.uk/about/campus/",
+        "https://www.york.ac.uk/admin/hr/new-starters/welcome-to-york/on-campus/about/self-guided-tour-campus.pdf",
+        "https://www.york.ac.uk/media/abouttheuniversity/campus/UoY_Department%20of%20Music%20-%20Sir%20Jack%20Lyons%20Concert%20Hall_February%202021%20-%20Alex%20Holland-4.jpg"
+      ],
+      "creditPath": "room_sets/NOTICE.md",
+      "processingPath": "room_sets/provenance/jack_lyons.json",
+      "imageIncludedInDownload": false
+    }
+  ],
+  "files": [
+    {
+      "path": "generic/cathedral/license.txt",
+      "sha256": "8254b4cc9706ef28ff8c3e1eb57c8aa3ab7dd2cc59186fa6dc116dd2018330ee",
+      "byteCount": 733,
+      "componentId": "cathedral",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/cathedral/provenance.json",
+      "sha256": "7e0a2af5ea4080734880635caf752606cec410d048bf8baeb4e8115a72ae636b",
+      "byteCount": 1391,
+      "componentId": "cathedral",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "08283998cf50da5b99f93539493f5b0689396b6ba52d82242572f24248244b7d"
+    },
+    {
+      "path": "generic/cathedral/recipe.json",
+      "sha256": "6f5e692bd485740454962ea67e8c1d9f646a2d839d358784accae380eedae011",
+      "byteCount": 1109,
+      "componentId": "cathedral",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/ceremonial_hall/license.txt",
+      "sha256": "50703ffc4f23b21ded195333c2c05eceea3c593916e9999718a806fe846cfe47",
+      "byteCount": 713,
+      "componentId": "ceremonial_hall",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/ceremonial_hall/provenance.json",
+      "sha256": "76a558e6d893701009cd7b193e90d8530b63f9a4ce4785d5cf3abd6a78def41d",
+      "byteCount": 1399,
+      "componentId": "ceremonial_hall",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "63b61593e7e621fae7f86f25354c3114f3d43ec9c92206cea13ed94fde5e43e2"
+    },
+    {
+      "path": "generic/ceremonial_hall/recipe.json",
+      "sha256": "427eb9d61bcc78c9ed329e403b9ac8da8260d6cce94483297a639e92bd2d07ec",
+      "byteCount": 1154,
+      "componentId": "ceremonial_hall",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/chamber_room/license.txt",
+      "sha256": "edd595c63a88d2345808c432495554afa9f951362f2e365fe07332809a04aa54",
+      "byteCount": 793,
+      "componentId": "chamber_room",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/chamber_room/provenance.json",
+      "sha256": "31604361100a2dbc5c9d4dc58dff1b8353e91514345cdfe9520fc51336827f95",
+      "byteCount": 1489,
+      "componentId": "chamber_room",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "9441871a370e200406d44b7e28355982bbbd8f71e6e7190bd04c5db8f3d15c2a"
+    },
+    {
+      "path": "generic/chamber_room/recipe.json",
+      "sha256": "02a442b5d479350a3e1fe2f12b448c290e12f04f55c687a44768cac77b7dd924",
+      "byteCount": 1192,
+      "componentId": "chamber_room",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/church/license.txt",
+      "sha256": "074e407c68b33536db3039a2f520ea8b937b6a115d7f6c5105f60e4e2d611b8a",
+      "byteCount": 667,
+      "componentId": "church",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/church/provenance.json",
+      "sha256": "94d23e095dafdb5ff54ad4e1e160a65aec64b06fa72d17b19496732e686ba17d",
+      "byteCount": 1378,
+      "componentId": "church",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "e1841d365014ae0b81719dc6f22a121085b54e9ff0608b35caba1feba4bd575e"
+    },
+    {
+      "path": "generic/church/recipe.json",
+      "sha256": "13442ceb695fd71faea40b9c5b30ba6400deffd5a7948828e87e4061d59af383",
+      "byteCount": 1103,
+      "componentId": "church",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/concert_hall/license.txt",
+      "sha256": "33d52b32c91a5796ed8c34368449a51c08f580c00ffb51ceb3812a856d969146",
+      "byteCount": 640,
+      "componentId": "concert_hall",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/concert_hall/provenance.json",
+      "sha256": "f22fe5a3e1e61fd71cb7bd5087aab5b93525d858c8fc5d64667a8ed0379ac55f",
+      "byteCount": 1363,
+      "componentId": "concert_hall",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "7fcbd7026f029c01760ff04b0333bdc6b4be13a6cbb3f03056d5b41482a88a48"
+    },
+    {
+      "path": "generic/concert_hall/recipe.json",
+      "sha256": "651f7378fa5e48388f5c0192b58209a5bcfe35394719d3fea8aac6c7a100e8eb",
+      "byteCount": 1106,
+      "componentId": "concert_hall",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/direct/license.txt",
+      "sha256": "c5207e9d30b7df43c1e31f55f781a7619746a65f1b4d579e03d0af8923b65ea5",
+      "byteCount": 64,
+      "kind": "direct-reference-notice"
+    },
+    {
+      "path": "generic/direct/provenance.json",
+      "sha256": "64fe194ef76be2f55ad0079ce8a1a432d560f83174a3fb4166d16ef8fe96e794",
+      "byteCount": 172,
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "a7f358134a574971ef91439cc47878c4d3db52aa345169e6093892fbf1b7aee4"
+    },
+    {
+      "path": "generic/grand_concert_hall/license.txt",
+      "sha256": "69d7bd2173db19dde58bc7b5a3905ae8b746e5ba9726c8e9376b26aca394dba0",
+      "byteCount": 772,
+      "componentId": "grand_concert_hall",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/grand_concert_hall/provenance.json",
+      "sha256": "a2731a129b8f229bff9a808e78a9d78f081337527a839974810354ddce3814e6",
+      "byteCount": 1471,
+      "componentId": "grand_concert_hall",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "e4a48828822121208915cdf48b4db8ef17375232fa1db5aeefd9e5e8fb1a257a"
+    },
+    {
+      "path": "generic/grand_concert_hall/recipe.json",
+      "sha256": "59abfb52b3e590387a1a841b82d06a7f4f00fad0e299ce1d069933aa073d896d",
+      "byteCount": 1188,
+      "componentId": "grand_concert_hall",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/ir/cathedral_openair_peak_minus6.wav",
+      "sha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+      "byteCount": 2880044,
+      "componentId": "cathedral",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav"
+    },
+    {
+      "path": "generic/ir/ceremonial_hall_openair_peak_minus6.wav",
+      "sha256": "484855ed91a90c53d77fc315d69e4dffde22c6799084c95dc1a1ce4880f413a3",
+      "byteCount": 2312684,
+      "componentId": "ceremonial_hall",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/elveden-hall-suffolk-england/stereo/1a_marble_hall.wav"
+    },
+    {
+      "path": "generic/ir/chamber_room_openair_peak_minus6.wav",
+      "sha256": "c9b0797d81fb8e3de14bdd06098b016f9841f7180bc9090a0e192988c74fa401",
+      "byteCount": 864044,
+      "componentId": "chamber_room",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/dixon-studio-theatre-university-york/b-format/r1_rir_bformat.wav"
+    },
+    {
+      "path": "generic/ir/church_openair_peak_minus6.wav",
+      "sha256": "a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc",
+      "byteCount": 2880044,
+      "componentId": "church",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav"
+    },
+    {
+      "path": "generic/ir/concert_hall_openair_peak_minus6.wav",
+      "sha256": "f47c66e102890877ea1e11b5e045e46d179f33c15daf6bb52b1fccdc76ea5e3a",
+      "byteCount": 654902,
+      "componentId": "concert_hall",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/usina-del-arte-symphony-hall/stereo/usina_main_s1_p5.wav"
+    },
+    {
+      "path": "generic/ir/grand_concert_hall_openair_peak_minus6.wav",
+      "sha256": "6e4bc4064103c2cc7c9a133fa02bfff3e2c5473dcba5b264e2963d4141a24533",
+      "byteCount": 1152044,
+      "componentId": "grand_concert_hall",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/jack-lyons-concert-hall-university-york/b-format/rir_jack_lyons_lp2_96k.wav"
+    },
+    {
+      "path": "generic/ir/opera_openair_peak_minus6.wav",
+      "sha256": "9e88000afdde7bddb077295dc3ed80d0942ecff807e187d705b5cab5bad37cef",
+      "byteCount": 1440044,
+      "componentId": "opera",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://www.openair.hosted.york.ac.uk/wp-content/uploads/2025/08/theatre41_CenterAVG_32_48.wav"
+    },
+    {
+      "path": "generic/ir/practice_room_openair_peak_minus6.wav",
+      "sha256": "722addbec91c68b6051dfde4087c33437f83a650584c14b3bcc077c689cf43f9",
+      "byteCount": 288044,
+      "componentId": "practice_room",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/maes-howe/stereo/mh3_000_ortf_48k.wav"
+    },
+    {
+      "path": "generic/ir/studio_room_openair_peak_minus6.wav",
+      "sha256": "29de37d2be43af83ce53a7f2b2d4266e4ef2999c83e7cbfd9a5521101bfde125",
+      "byteCount": 576044,
+      "componentId": "studio_room",
+      "kind": "audio",
+      "license": "CC-BY-4.0",
+      "sourceUri": "https://webfiles.york.ac.uk/OPENAIR/IRs/genesis-6-studio-live-room-drum-set/b-format/kick_ir.wav"
+    },
+    {
+      "path": "generic/LICENSES.md",
+      "sha256": "f562180ea70085ba72987ca2cb6291d2bb3cd85d81af44a8cfb5a4f7a22537c5",
+      "byteCount": 3225,
+      "kind": "attribution-index"
+    },
+    {
+      "path": "generic/opera/license.txt",
+      "sha256": "05b7d6e29e8a46b08b99ebfd241426af56897b9e6e240cd0a5bfe5fbca7b3df8",
+      "byteCount": 691,
+      "componentId": "opera",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/opera/provenance.json",
+      "sha256": "f867d156c9a74c6353fe4a4807d04e331e2312373924a8c0258b838f31e8c7a4",
+      "byteCount": 1335,
+      "componentId": "opera",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "3c8e9e6cbca05e174cc0e1e7ff1b4722c8632119a11a21a6009e847b0b54903d"
+    },
+    {
+      "path": "generic/opera/recipe.json",
+      "sha256": "950586a1407d1c4c3303b6f1264c1dfdf2109699806913371e5753c6eb19a662",
+      "byteCount": 1097,
+      "componentId": "opera",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/practice_room/license.txt",
+      "sha256": "e28755473fc6db4e973673336b204f10e570e687408181f28ed032030182b08b",
+      "byteCount": 664,
+      "componentId": "practice_room",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/practice_room/provenance.json",
+      "sha256": "3b2931a039773a903c94d7b5777e815e99b1c2743c838dd2d731f62fb6854645",
+      "byteCount": 1410,
+      "componentId": "practice_room",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "7b891874114f83531edd22f660933c250a817a191ded493d4f47e47a8bd31881"
+    },
+    {
+      "path": "generic/practice_room/recipe.json",
+      "sha256": "2a35e99e86b8ca7918fe80a0ad21b3aa0b1cdb0facd9c24c8bdcdddcc6a1a2d1",
+      "byteCount": 1109,
+      "componentId": "practice_room",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "generic/studio_room/license.txt",
+      "sha256": "dfa79900d1ec216b489b1b99f858e30653a085bcf6994956f37f92ad02c5c9be",
+      "byteCount": 778,
+      "componentId": "studio_room",
+      "kind": "attribution"
+    },
+    {
+      "path": "generic/studio_room/provenance.json",
+      "sha256": "894967cc1e21457a76e16559be4345d171628a186e15e121f5cacf1f6330ac6a",
+      "byteCount": 1474,
+      "componentId": "studio_room",
+      "kind": "component-provenance",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "88fe20e2092b5065eb00eb4298f6698ba4f885622d92c7ddf75d785ebde591e3"
+    },
+    {
+      "path": "generic/studio_room/recipe.json",
+      "sha256": "4212fad8bc71e6ad6e0a2fba1386c2eb23d30688b93d8cb8a1ce70fefd9fbb10",
+      "byteCount": 1188,
+      "componentId": "studio_room",
+      "kind": "processing-provenance"
+    },
+    {
+      "path": "licenses/CC-BY-2.0.txt",
+      "sha256": "0b717858d8e5efba570cb5d6cee3fd16ed03d29924d2e339aa2a4b5f8f5f3f35",
+      "byteCount": 12903,
+      "kind": "full-license-text",
+      "sourceUri": "https://creativecommons.org/licenses/by/2.0/legalcode.en",
+      "origin": "Complete official legal-code body extracted to inert UTF-8 plaintext",
+      "originalPrimaryHtmlSha256": "a949dd5d7f931e974f835f62fac19b1c812e55fa2d5aa053dcd4ed53f2d30536"
+    },
+    {
+      "path": "licenses/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "byteCount": 18657,
+      "kind": "full-license-text",
+      "sourceUri": "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+    },
+    {
+      "path": "licenses/CC-BY-SA-2.0.txt",
+      "sha256": "8d8e1854e0b453f69d030d54400a2b1c2f278670cf077f18efe9519e0e94fafa",
+      "byteCount": 14476,
+      "kind": "full-license-text",
+      "sourceUri": "https://creativecommons.org/licenses/by-sa/2.0/legalcode.en",
+      "origin": "Complete official legal-code body extracted to inert UTF-8 plaintext",
+      "originalPrimaryHtmlSha256": "a90434ea9f88eb5c29eec63113a9902ac116be6f9c2061dc1fa66283610557b2"
+    },
+    {
+      "path": "licenses/CC-BY-SA-4.0.txt",
+      "sha256": "04248c6560c49fa17a973c9cc14d44e046a74e47fac6e119c33a6a24505f8ec5",
+      "byteCount": 21136,
+      "kind": "full-license-text",
+      "sourceUri": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "path": "opra/catalogue.jsonl",
+      "sha256": "0f448fc52741568afe222c676acceae6730dd82a088a13340c38441b7b808174",
+      "byteCount": 9767611,
+      "kind": "headphone-catalogue-component",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "opra/CC-BY-SA-4.0.txt",
+      "sha256": "04248c6560c49fa17a973c9cc14d44e046a74e47fac6e119c33a6a24505f8ec5",
+      "byteCount": 21136,
+      "kind": "headphone-catalogue-component",
+      "license": "see bundled notices"
+    },
+    {
+      "path": "opra/headphone_catalogue_index_v1.json",
+      "sha256": "163575e17fce340821688925d087cd54febcac11a07a80d4adf41736f05baf08",
+      "byteCount": 1787979,
+      "kind": "headphone-catalogue-component",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "opra/headphone_profiles_v1.bin",
+      "sha256": "fe1db1416ee87e921079fd9b199a6ce7b01d935d1f1b4cc604a2df1d9a7fe578",
+      "byteCount": 1095512,
+      "kind": "headphone-catalogue-component",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "opra/NOTICE.md",
+      "sha256": "0b585e08b739939e8fea176780a51361ddb1f48dec10fac526723f77106c5662",
+      "byteCount": 1308,
+      "kind": "headphone-catalogue-component",
+      "license": "see bundled notices"
+    },
+    {
+      "path": "opra/source.json",
+      "sha256": "7654a8f592ba5c0372259f024ae0a2d56eb22c4b82d3d84ebf4990a46b1ae31b",
+      "byteCount": 718
+    },
+    {
+      "path": "opra/THIRD_PARTY_LICENSES.md",
+      "sha256": "0115e132b3af79a7554b0b6bd8d51812e7f5836c59d801fc3848c5d10b0cc2ef",
+      "byteCount": 1183,
+      "kind": "headphone-catalogue-component",
+      "license": "see bundled notices"
+    },
+    {
+      "path": "project/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "byteCount": 11358,
+      "kind": "existing-project-license",
+      "license": "Apache-2.0",
+      "scope": "Existing project source license; no blanket relabeling of separately licensed components"
+    },
+    {
+      "path": "project/NOTICE.txt",
+      "sha256": "2ae1e3f9412a1d44c1d144fc998468e1cda062cac4da971744f52d9b2e22cb2f",
+      "byteCount": 892,
+      "kind": "existing-project-notice"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b9f6e07e21bf78d5b12d034be9b654ca76c6bfd3f9289024221143434498ce60",
+      "byteCount": 2419,
+      "kind": "recipient-instructions",
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "b58eb94ebce9d154e197fb2379235482ab1400bb6cf6f87ddec351a9d5c08d96"
+    },
+    {
+      "path": "room_sets/catalogue.json",
+      "sha256": "c527fb1fde2ac33d7369b5247426e670792ab1aeb58d4b2105dd4be74a4787f3",
+      "byteCount": 9045,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/distribution.json",
+      "sha256": "215d5e8ca815aac82a42c485f496067bc9555dc4387ffee080b6b28d831d3062",
+      "byteCount": 407,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/image_generation.json",
+      "sha256": "9f0a3c5bdc89ca196809ffcfdeeeb3ae8dcefa13e612f32f685a62981deb144f",
+      "byteCount": 14374,
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "8e0182fe400c70ce686980be3181f0de49a4ec0b737f0adbbb198833e27b92b6"
+    },
+    {
+      "path": "room_sets/images/detmold_brahmssaal.jpg",
+      "sha256": "0343a2f3ecca4da7fe9b43ed4f62879ef1d80787262c6f651e718ba0170613eb",
+      "byteCount": 261179,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/detmold_konzerthaus.jpg",
+      "sha256": "450234d6c1389b31f3e7046101ed094f7fab9dfa36db50e74daab3f995253ad9",
+      "byteCount": 383935,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/detmold_sommertheater.jpg",
+      "sha256": "c1da45771630bae25718ed1cae0825e0d4d4e940113124c876e086f9fb5d9074",
+      "byteCount": 383998,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/iem_cube.jpg",
+      "sha256": "738d7f359f0019345a1d887f29af0126f935f55dc3700e24c7617e035ada95ce",
+      "byteCount": 355587,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/iem_production_studio.jpg",
+      "sha256": "5f25791e064a6731bdc58771e1c1fb3f42b6c5d64407cd05c0efaf5d53ec6c46",
+      "byteCount": 329863,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/maeshowe.jpg",
+      "sha256": "a9ec9e08f8bacbf6baca292ce777818cfa13a0abd63b3535641736d9e3427b6c",
+      "byteCount": 613314,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/stockholm_r1.jpg",
+      "sha256": "ad2f42856e6dc85d5e1ad69b7b1520ae6fe12b03fdcdd0130b4e69ecf60207cf",
+      "byteCount": 479106,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/usina_symphonic.jpg",
+      "sha256": "981f0e9678d045260e127d5cd9145b9ae199125eaa9f83084b5dfc29b761a066",
+      "byteCount": 544862,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/images/york_minster.jpg",
+      "sha256": "e572c03384083b3342d67cf50d90b627410be34feac44c09166fb4de6c91ae17",
+      "byteCount": 563881,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/detmold_brahmssaal.wav",
+      "sha256": "5c854a3764cbf925657fccda54463f8c86bfe97d732763457daa517c2e49bd27",
+      "byteCount": 2079192,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/detmold_konzerthaus.wav",
+      "sha256": "79ece6dd2dc55356a032b025ea719c37089314b47a6172b10f5698652ac509a9",
+      "byteCount": 553736,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/detmold_sommertheater.wav",
+      "sha256": "0654b2452d4cc4ec7ee0eed24361bb89fb1698535a7a9ddc447b084e5ea27f57",
+      "byteCount": 1129824,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/elveden_marble_hall.wav",
+      "sha256": "15db9fc512758a758439833469f85b21628e9ce19228fa62050a821a5ad2b23e",
+      "byteCount": 3083576,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/iem_cube.wav",
+      "sha256": "15222296effd945ffdf20f38241d3ce2b20f93094d752488962d600843b9bb72",
+      "byteCount": 230456,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/iem_production_studio.wav",
+      "sha256": "ffbb7c28d909896cde7289364cdf7fe4d52ebb45312f82b91c9ea0fe21676ac9",
+      "byteCount": 131128,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/jack_lyons.wav",
+      "sha256": "91af19c2f2292c234ad69c1d2c1d4df30dd8515c167fb26bc35026886a19c8fc",
+      "byteCount": 1521960,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/maeshowe.wav",
+      "sha256": "92d0e681cbb99ef1f598461469d513d09b9eb09f208b56eaa1cb09661c1dca38",
+      "byteCount": 384056,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/stockholm_r1.wav",
+      "sha256": "4591873022cac623a0e0f790c02e120ac6c5bbb05f4f8c3c87c7acf5b93926ce",
+      "byteCount": 3840056,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/usina_symphonic.wav",
+      "sha256": "28172ca67e8772197488761dadd98ae27e80d921962b56ffa44f8f54f410d570",
+      "byteCount": 867128,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/ir/york_minster.wav",
+      "sha256": "13fff414ff5649f0676e889cafd718c76e3ef76bcdf32fbad166c0d0277eefa8",
+      "byteCount": 3813272,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/NOTICE.md",
+      "sha256": "669164de17b13add373aa34c8827ad3fb3457a4b59a0986b5410973b25a90b1a",
+      "byteCount": 19930,
+      "origin": "Download-subset metadata derived from Build5; binary components remain unchanged",
+      "originalBuild5MetadataSha256": "55266d33d6dccbbfcfe10597903751c978882138f94a99ad55531b3ad2da4d5a"
+    },
+    {
+      "path": "room_sets/provenance/detmold_brahmssaal.json",
+      "sha256": "cf87259d7152b8efdc49d7da9ed0737832137003ee236de33ca0b4078cb3db14",
+      "byteCount": 5019,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/detmold_konzerthaus.json",
+      "sha256": "dc651b0c6952a6a03af771d48c8be8c22f6caf499c6714e13a6fd3ff25c2028b",
+      "byteCount": 4811,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/detmold_sommertheater.json",
+      "sha256": "8e2443c8f4a1197f374dfad66de6e5e3f920508e97bea07d361f9c7828ebe514",
+      "byteCount": 4933,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/elveden_marble_hall.json",
+      "sha256": "0732eac101ec5c62027c621160e62a4775e64fd262fe701514e361329743a8fb",
+      "byteCount": 5061,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/iem_cube.json",
+      "sha256": "391e20849d37fb0323b0f32de1441c839e27b3d1e8006585ce76aad42f30ea28",
+      "byteCount": 4702,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/iem_production_studio.json",
+      "sha256": "d4a7408fb9b71bf9e168a27ba6f5c30a62ce8b03ccb07d28a08411ef93c2ba83",
+      "byteCount": 4702,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/jack_lyons.json",
+      "sha256": "6de1f9efaaab06ac9568ebb914318aceed206de4e9880695e8ec8697b3731bdc",
+      "byteCount": 5003,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/maeshowe.json",
+      "sha256": "6703c9bdc67fbb5460a3afae6c1889ce48fcb6fbba3497b7762cc1bedd547609",
+      "byteCount": 4731,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/stockholm_r1.json",
+      "sha256": "6a122b450e448fc8972c141a55ef15988993ad27304d530ace81f019dbfe1338",
+      "byteCount": 5307,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/usina_symphonic.json",
+      "sha256": "fcfecd79ce9c659c84a7033767c4917f38bcc1074be16cdc92d07953d457a202",
+      "byteCount": 4946,
+      "origin": "exact local signed Build5 app resource"
+    },
+    {
+      "path": "room_sets/provenance/york_minster.json",
+      "sha256": "018b29e2d44bc241ee100b475cdd369b3eda5e875cb22daa9248185eba79fa18",
+      "byteCount": 5142,
+      "origin": "exact local signed Build5 app resource"
+    }
+  ],
+  "omittedProjectImageCount": 12
+}

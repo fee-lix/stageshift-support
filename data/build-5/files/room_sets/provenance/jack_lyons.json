@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "jack_lyons",
+  "sourceSelectionFile": "jack_lyons_lp2_bformat_96k.wav",
+  "sourceSelectionSha256": "edc6dd9e978ccdc2ac6719f22498a4e11c1613b76ab631bc01564ade8ab406fc",
+  "renderedFile": "ir/jack_lyons.wav",
+  "renderedSha256": "91af19c2f2292c234ad69c1d2c1d4df30dd8515c167fb26bc35026886a19c8fc",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": true,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 96000,
+      "frameCount": 384000,
+      "channelCount": 2,
+      "sourceChannelCount": 4,
+      "sourceFileSha256": "edc6dd9e978ccdc2ac6719f22498a4e11c1613b76ab631bc01564ade8ab406fc",
+      "sourceChannelLayout": "first_order_b_format_wxyz_fuma",
+      "canonicalDecodeMapping": "wxyz_fuma_wx_center_y_side_to_stereo",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 3524,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "directEvent": {
+        "beginSourceFrame": 3572,
+        "endSourceFrameExclusive": 3637,
+        "confidence": "high"
+      },
+      "directReference": {
+        "sourceFrame": 3613,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 5718,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 3637,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 6037,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 16597,
+          "confidence": "high",
+          "reason": "detected"
+        }
+      },
+      "analysisStartSourceFrame": 3524,
+      "analysisEndSourceFrameExclusive": 384000,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 96000,
+      "sourceFrameCount": 384000,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 24,
+          "bucketCount": 16000
+        },
+        {
+          "nominalFramesPerBucket": 48,
+          "bucketCount": 8000
+        },
+        {
+          "nominalFramesPerBucket": 96,
+          "bucketCount": 4000
+        },
+        {
+          "nominalFramesPerBucket": 192,
+          "bucketCount": 2000
+        },
+        {
+          "nominalFramesPerBucket": 384,
+          "bucketCount": 1000
+        },
+        {
+          "nominalFramesPerBucket": 768,
+          "bucketCount": 500
+        },
+        {
+          "nominalFramesPerBucket": 1536,
+          "bucketCount": 250
+        },
+        {
+          "nominalFramesPerBucket": 3072,
+          "bucketCount": 125
+        },
+        {
+          "nominalFramesPerBucket": 6144,
+          "bucketCount": 63
+        },
+        {
+          "nominalFramesPerBucket": 12288,
+          "bucketCount": 32
+        },
+        {
+          "nominalFramesPerBucket": 24576,
+          "bucketCount": 16
+        },
+        {
+          "nominalFramesPerBucket": 49152,
+          "bucketCount": 8
+        },
+        {
+          "nominalFramesPerBucket": 98304,
+          "bucketCount": 4
+        },
+        {
+          "nominalFramesPerBucket": 196608,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 393216,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "487c66423006df9c"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 0.0752940768025513,
+      "recommendedGainDb": -22.464783746410202,
+      "limitingConstraint": "reference_program",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 3524,
+      "sourceEndSourceFrameExclusive": 384000,
+      "activeFrameCount": 190238,
+      "boundarySourceFrames": [
+        3637,
+        6037,
+        16597
+      ],
+      "boundaryAlignedFrames": [
+        57,
+        1257,
+        6537
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 190238,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "71e90d26a92c2805"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.openair.hosted.york.ac.uk/?page_id=571",
+    "https://webfiles.york.ac.uk/OPENAIR/IRs/jack-lyons-concert-hall-university-york/b-format/rir_jack_lyons_lp2_96k.wav"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -22.097431747630758
+}

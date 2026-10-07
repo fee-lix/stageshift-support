@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "iem_cube",
+  "sourceSelectionFile": "cube-m16-e0-w.wav",
+  "sourceSelectionSha256": "442f91f29e4a5dbc7847473ef23dca4aac5fe952eeaac143f12f8dc549ab7501",
+  "renderedFile": "ir/iem_cube.wav",
+  "renderedSha256": "15222296effd945ffdf20f38241d3ce2b20f93094d752488962d600843b9bb72",
+  "authoringTool": "xr-ir-trace-plan-v1 --target-sample-rate-hz 48000 --wav-out",
+  "decodeBFormatStereo": false,
+  "trace": {
+    "schemaVersion": 2,
+    "processingPath": "shared_ir_plan_v1",
+    "source": {
+      "sampleRateHz": 44100,
+      "frameCount": 26460,
+      "channelCount": 2,
+      "sourceChannelCount": 2,
+      "sourceFileSha256": "442f91f29e4a5dbc7847473ef23dca4aac5fe952eeaac143f12f8dc549ab7501",
+      "sourceChannelLayout": "stereo_left_right",
+      "canonicalDecodeMapping": "stereo_left_right_passthrough",
+      "decoderVersion": 1
+    },
+    "versions": {
+      "detectorVersion": 2,
+      "normalizerVersion": 2,
+      "rendererVersion": 2,
+      "waveformVersion": 1,
+      "sourceDecoderVersion": 1
+    },
+    "analysis": {
+      "safeStart": {
+        "sourceFrame": 0,
+        "confidence": "medium",
+        "reason": "conservative_fallback"
+      },
+      "directEvent": {
+        "beginSourceFrame": 545,
+        "endSourceFrameExclusive": 569,
+        "confidence": "medium"
+      },
+      "directReference": {
+        "sourceFrame": 564,
+        "confidence": "medium",
+        "reason": "detected"
+      },
+      "globalPeak": {
+        "sourceFrame": 564,
+        "confidence": "high",
+        "reason": "detected"
+      },
+      "boundaries": {
+        "b1": {
+          "sourceFrame": 569,
+          "confidence": "medium",
+          "reason": "detected"
+        },
+        "b2": {
+          "sourceFrame": 2116,
+          "confidence": "high",
+          "reason": "detected"
+        },
+        "b3": {
+          "sourceFrame": 11854,
+          "confidence": "low",
+          "reason": "no_stable_decay"
+        }
+      },
+      "analysisStartSourceFrame": 0,
+      "analysisEndSourceFrameExclusive": 26460,
+      "noiseOnly": false
+    },
+    "waveform": {
+      "version": 1,
+      "sourceSampleRateHz": 44100,
+      "sourceFrameCount": 26460,
+      "levels": [
+        {
+          "nominalFramesPerBucket": 11,
+          "bucketCount": 2406
+        },
+        {
+          "nominalFramesPerBucket": 22,
+          "bucketCount": 1203
+        },
+        {
+          "nominalFramesPerBucket": 44,
+          "bucketCount": 602
+        },
+        {
+          "nominalFramesPerBucket": 88,
+          "bucketCount": 301
+        },
+        {
+          "nominalFramesPerBucket": 176,
+          "bucketCount": 151
+        },
+        {
+          "nominalFramesPerBucket": 352,
+          "bucketCount": 76
+        },
+        {
+          "nominalFramesPerBucket": 704,
+          "bucketCount": 38
+        },
+        {
+          "nominalFramesPerBucket": 1408,
+          "bucketCount": 19
+        },
+        {
+          "nominalFramesPerBucket": 2816,
+          "bucketCount": 10
+        },
+        {
+          "nominalFramesPerBucket": 5632,
+          "bucketCount": 5
+        },
+        {
+          "nominalFramesPerBucket": 11264,
+          "bucketCount": 3
+        },
+        {
+          "nominalFramesPerBucket": 22528,
+          "bucketCount": 2
+        },
+        {
+          "nominalFramesPerBucket": 45056,
+          "bucketCount": 1
+        }
+      ],
+      "waveformHash": {
+        "algorithm": "fnv1a64-le-v1",
+        "value": "0b0bed53a0e7cc02"
+      }
+    },
+    "baseLevel": {
+      "recommendedGainLinear": 7.048490938252634,
+      "recommendedGainDb": 16.961922914744523,
+      "limitingConstraint": "energy",
+      "upwardGainLimited": false,
+      "effectiveSilence": false
+    },
+    "prepared": {
+      "sampleRateHz": 48000,
+      "selectedStartSourceFrame": 0,
+      "sourceEndSourceFrameExclusive": 26460,
+      "activeFrameCount": 28800,
+      "boundarySourceFrames": [
+        569,
+        2116,
+        11854
+      ],
+      "boundaryAlignedFrames": [
+        619,
+        2303,
+        12902
+      ],
+      "tailCutApplied": false,
+      "tailFadeStartAlignedFrame": 28800,
+      "tailFadeFrameCount": 0,
+      "preparedHash": {
+        "algorithm": "fnv1a64-le-v2",
+        "value": "153e225ef85ea3bc"
+      }
+    }
+  },
+  "sourceReferences": [
+    "https://phaidra.kug.ac.at/detail/o:104435",
+    "https://creativecommons.org/publicdomain/mark/1.0/",
+    "https://phaidra.kug.ac.at/api/object/o:104435/download"
+  ],
+  "creditNotice": "NOTICE.md",
+  "rightsStatus": "documented",
+  "safeDefaults": {
+    "roomSoundAmount": 0.7,
+    "outputTrimDb": 0,
+    "finalLimiterRequired": true
+  },
+  "exportedPeakDbFS": -7.8408092065329615
+}

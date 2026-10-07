@@ -1,0 +1,11 @@
+Church
+Status: production_preset_candidate
+Release preset gate: blocked_pending_release_review
+Source: OpenAIR York Minster minster1 000 ORTF 48k
+Source page: https://www.openair.hosted.york.ac.uk/?page_id=797
+Source file: https://webfiles.york.ac.uk/OPENAIR/IRs/york-minster/stereo/minster1_000_ortf_48k.wav
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Attribution: www.openairlib.net; Audiolab, University of York; Damian T. Murphy
+Source SHA-256: 2fbf0285a8d4bb083b32d052d2e0359e1bc59cc426ec93098ad4e322862afb63
+Rendered SHA-256: a986fb80160576b4db4567e0fc967e708274fe865c284422bcd576273dee82dc
